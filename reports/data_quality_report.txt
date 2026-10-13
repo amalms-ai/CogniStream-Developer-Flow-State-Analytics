@@ -1,0 +1,21 @@
+COGNISTREAM - DATA QUALITY REPORT
+========================================
+Total records: 500
+Total columns: 12
+Missing values: 0
+Duplicate session IDs: 0
+Unique developers: 10
+
+Column names:
+session_id
+developer_id
+date
+start_hour
+task_type
+session_duration_min
+focus_duration_min
+interruptions
+task_switches
+task_complexity
+cognitive_load_rating
+tasks_completed
