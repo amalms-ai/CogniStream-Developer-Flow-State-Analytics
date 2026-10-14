@@ -1,0 +1,30 @@
+COGNISTREAM - EDA SUMMARY
+========================================
+Total sessions: 500
+Unique developers: 10
+Average session duration: 76.33 minutes
+Average focus duration: 43.63 minutes
+Average interruptions: 5.14
+Average task switches: 4.11
+Average cognitive workload: 3.13/5
+Interruption-focus correlation: 0.010
+
+Task type summary:
+               session_count  average_focus_min  average_interruptions  average_workload
+task_type                                                                               
+Code Review               97              45.76                   5.04              3.27
+Coding                   108              40.99                   5.45              3.00
+Debugging                 89              46.60                   4.97              3.06
+Documentation            116              45.61                   5.22              3.17
+Testing                   90              39.02                   4.96              3.16
+
+Numerical summary:
+       session_duration_min  focus_duration_min  interruptions  task_switches  cognitive_load_rating  tasks_completed
+count                500.00              500.00         500.00         500.00                 500.00           500.00
+mean                  76.33               43.63           5.14           4.11                   3.13             2.38
+std                   26.71               24.69           3.14           2.52                   1.39             1.71
+min                   30.00               10.00           0.00           0.00                   1.00             0.00
+25%                   52.00               23.00           2.75           2.00                   2.00             1.00
+50%                   77.00               39.00           5.00           4.00                   3.00             2.00
+75%                  100.00               59.00           8.00           6.00                   4.00             4.00
+max                  120.00              113.00          10.00           8.00                   5.00             5.00
