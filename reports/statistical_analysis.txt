@@ -1,0 +1,31 @@
+COGNISTREAM - STATISTICAL ANALYSIS REPORT
+==================================================
+
+1. STATISTICAL SUMMARY
+       session_duration_min  focus_duration_min  interruptions  task_switches  cognitive_load_rating  tasks_completed
+count                500.00              500.00         500.00         500.00                 500.00           500.00
+mean                  76.33               43.63           5.14           4.11                   3.13             2.38
+std                   26.71               24.69           3.14           2.52                   1.39             1.71
+min                   30.00               10.00           0.00           0.00                   1.00             0.00
+25%                   52.00               23.00           2.75           2.00                   2.00             1.00
+50%                   77.00               39.00           5.00           4.00                   3.00             2.00
+75%                  100.00               59.00           8.00           6.00                   4.00             4.00
+max                  120.00              113.00          10.00           8.00                   5.00             5.00
+
+2. CORRELATION BETWEEN METRICS
+                       session_duration_min  focus_duration_min  interruptions  task_switches  cognitive_load_rating  tasks_completed
+session_duration_min                   1.00                0.59          -0.05           0.01                  -0.00             0.05
+focus_duration_min                     0.59                1.00           0.01          -0.09                  -0.04             0.02
+interruptions                         -0.05                0.01           1.00           0.10                   0.07             0.06
+task_switches                          0.01               -0.09           0.10           1.00                   0.01            -0.07
+cognitive_load_rating                 -0.00               -0.04           0.07           0.01                   1.00            -0.06
+tasks_completed                        0.05                0.02           0.06          -0.07                  -0.06             1.00
+
+3. FOCUS DURATION BY TASK TYPE
+                mean  min  max  count
+task_type                            
+Code Review    45.76   11  108     97
+Coding         40.99   10   99    108
+Debugging      46.60   10  113     89
+Documentation  45.61   10  111    116
+Testing        39.02   10  107     90
