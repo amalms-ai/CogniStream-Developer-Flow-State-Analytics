@@ -1,0 +1,37 @@
+COGNISTREAM - PRODUCTIVITY METRICS REPORT
+==================================================
+
+Total sessions analyzed: 500
+Unique developers: 10
+
+Overall average focus percentage: 57.77%
+Average tasks completed per session: 2.38
+Average tasks per hour: 2.14
+Average interruptions per hour: 4.74
+Average cognitive load: 3.13/5
+
+
+DEVELOPER-LEVEL METRICS
+--------------------------------------------------
+developer_id  total_sessions  avg_session_duration  avg_focus_duration  avg_focus_percentage  avg_tasks_completed  avg_tasks_per_hour  avg_interruptions_per_hour  avg_cognitive_load
+      DEV001              43                 72.00               39.56                 56.23                 2.47                2.25                        4.74                3.26
+      DEV002              52                 77.63               46.90                 61.66                 2.38                2.30                        4.66                3.08
+      DEV003              53                 76.43               47.06                 61.84                 2.60                2.41                        3.82                3.23
+      DEV004              41                 75.49               36.29                 48.82                 2.02                1.82                        3.44                2.59
+      DEV005              52                 81.12               42.69                 52.92                 2.52                2.17                        4.62                3.27
+      DEV006              59                 80.51               52.05                 62.78                 2.51                2.09                        5.12                3.08
+      DEV007              51                 72.71               40.08                 57.02                 2.18                2.13                        5.95                3.04
+      DEV008              35                 78.31               43.63                 55.05                 2.26                1.79                        4.54                3.37
+      DEV009              58                 75.29               47.88                 64.31                 2.26                2.03                        4.88                2.97
+      DEV010              56                 73.25               36.70                 52.87                 2.48                2.26                        5.22                3.41
+
+
+TASK-TYPE METRICS
+--------------------------------------------------
+               total_sessions  avg_focus_percentage  avg_tasks_completed  avg_interruptions  avg_cognitive_load
+task_type                                                                                                      
+Code Review                97                 61.33                 2.36               5.04                3.27
+Coding                    108                 55.46                 2.37               5.45                3.00
+Debugging                  89                 60.96                 2.46               4.97                3.06
+Documentation             116                 58.27                 2.22               5.22                3.17
+Testing                    90                 52.90                 2.53               4.96                3.16
