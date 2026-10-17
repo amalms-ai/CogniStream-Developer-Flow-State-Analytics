@@ -1,0 +1,31 @@
+COGNISTREAM - FOCUS AND INTERRUPTION ANALYSIS
+=======================================================
+
+Total sessions analyzed: 500
+Average focus duration: 43.63 minutes
+Average interruptions per session: 5.14
+Correlation between interruptions and focus: 0.010
+
+
+FOCUS BY INTERRUPTION GROUP
+-------------------------------------------------------
+                            session_count  average_focus_duration  average_session_duration  average_cognitive_load
+interruption_group                                                                                                 
+Low interruptions (0-2)               125                   44.59                     78.62                    2.99
+Medium interruptions (3-5)            136                   42.55                     75.98                    3.19
+High interruptions (6+)               239                   43.74                     75.33                    3.17
+
+
+TOP 10 SESSIONS BY INTERRUPTION COUNT
+-------------------------------------------------------
+session_id developer_id  interruptions  focus_duration_min  session_duration_min
+     S0003       DEV007             10                  55                    55
+     S0286       DEV006             10                  92                   102
+     S0285       DEV002             10                  86                    98
+     S0044       DEV007             10                  11                    58
+     S0045       DEV006             10                  61                    95
+     S0314       DEV001             10                  21                    40
+     S0300       DEV007             10                  62                    93
+     S0292       DEV003             10                  35                    59
+     S0048       DEV010             10                  18                    85
+     S0140       DEV002             10                  46                    48
