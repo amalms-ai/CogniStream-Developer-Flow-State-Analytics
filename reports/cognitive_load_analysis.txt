@@ -1,0 +1,35 @@
+COGNISTREAM - COGNITIVE LOAD ANALYSIS REPORT
+=======================================================
+
+Total sessions analyzed: 500
+Average cognitive load: 3.13/5
+
+
+COGNITIVE LOAD RATING DISTRIBUTION
+---------------------------------------------
+cognitive_load_rating
+1     89
+2     89
+3     89
+4    134
+5     99
+
+
+COGNITIVE LOAD BY TASK TYPE
+---------------------------------------------
+               session_count  average_cognitive_load  average_focus_duration  average_interruptions  average_task_switches
+task_type                                                                                                                 
+Code Review               97                    3.27                   45.76                   5.04                   4.33
+Documentation            116                    3.17                   45.61                   5.22                   4.12
+Testing                   90                    3.16                   39.02                   4.96                   3.80
+Debugging                 89                    3.06                   46.60                   4.97                   3.71
+Coding                   108                    3.00                   40.99                   5.45                   4.50
+
+
+CORRELATION WITH COGNITIVE LOAD
+---------------------------------------------
+tasks_completed        -0.062
+focus_duration_min     -0.036
+session_duration_min   -0.001
+task_switches           0.010
+interruptions           0.066
