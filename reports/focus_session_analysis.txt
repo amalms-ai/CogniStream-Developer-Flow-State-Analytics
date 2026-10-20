@@ -1,0 +1,14 @@
+COGNISTREAM - FOCUS SESSION ANALYSIS
+==================================================
+Total sessions: 500
+Average focus duration: 43.63 minutes
+Average focus percentage: 57.77%
+Sessions with at least 30 minutes of focus: 325
+Sessions with at least 60 minutes of focus: 124
+
+FOCUS GROUP SUMMARY
+--------------------------------------------------
+             focus_group  session_count  average_focus_duration  average_session_duration  average_focus_percentage  average_cognitive_load
+  Short focus (0-29 min)            175                   19.41                     61.27                     37.02                    3.16
+Medium focus (30-59 min)            201                   42.54                     74.55                     62.15                    3.09
+    Long focus (60+ min)            124                   79.58                    100.48                     79.95                    3.15
