@@ -1,0 +1,22 @@
+COGNISTREAM: FOCUS EFFICIENCY ANALYSIS
+=============================================
+
+Total sessions analyzed: 500
+Average focus efficiency: 57.77%
+Highest focus efficiency: 100.00%
+Lowest focus efficiency: 11.34%
+
+EFFICIENCY GROUP SUMMARY
+---------------------------------------------
+focus_efficiency_group  session_count  average_focus_efficiency_pct  average_focus_duration_min  average_interruptions  average_task_switches  average_cognitive_load
+        Low Efficiency            139                         27.18                       20.67                   4.92                   4.45                    3.18
+   Moderate Efficiency            182                         54.87                       40.82                   5.07                   4.00                    3.16
+       High Efficiency            179                         84.47                       64.32                   5.39                   3.97                    3.06
+
+INTERPRETATION
+---------------------------------------------
+Focus efficiency represents the percentage of a session spent in focused work, based on the dataset.
+Low Efficiency: 40% or less.
+Moderate Efficiency: above 40% and up to 70%.
+High Efficiency: above 70%.
+These groups describe the synthetic session data. They do not measure a developer's overall ability or actual mental state.
