@@ -1,0 +1,6 @@
+task_type,session_count,average_session_duration_min,average_focus_duration_min,average_interruptions,average_task_switches,average_cognitive_load,average_tasks_completed,average_focus_percentage
+Debugging,89,75.81,46.6,4.97,3.71,3.06,2.46,61.47
+Code Review,97,75.97,45.76,5.04,4.33,3.27,2.36,60.23
+Documentation,116,79.26,45.61,5.22,4.12,3.17,2.22,57.54
+Coding,108,76.71,40.99,5.45,4.5,3.0,2.37,53.44
+Testing,90,73.0,39.02,4.96,3.8,3.16,2.53,53.45
