@@ -1,0 +1,4 @@
+,complexity_score,focus_duration_min,cognitive_load_rating
+complexity_score,1.0,-0.072,0.02
+focus_duration_min,-0.072,1.0,-0.031
+cognitive_load_rating,0.02,-0.031,1.0

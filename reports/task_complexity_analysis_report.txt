@@ -1,0 +1,31 @@
+COGNISTREAM - DAY 13
+TASK COMPLEXITY ANALYSIS
+============================================================
+
+Total records: 500
+Valid analysis records: 500
+Excluded records: 0
+
+TASK COMPLEXITY DISTRIBUTION
+task_complexity  task_count
+            Low         174
+         Medium         152
+           High         174
+
+TASK COMPLEXITY SUMMARY
+task_complexity  task_count  average_focus_duration  median_focus_duration  average_cognitive_load  median_cognitive_load
+            Low         174                   44.84                   41.0                    3.08                    3.0
+         Medium         152                   45.38                   41.5                    3.19                    3.0
+           High         174                   40.90                   34.5                    3.13                    3.0
+
+SPEARMAN CORRELATION
+                       complexity_score  focus_duration_min  cognitive_load_rating
+complexity_score                  1.000              -0.072                  0.020
+focus_duration_min               -0.072               1.000                 -0.031
+cognitive_load_rating             0.020              -0.031                  1.000
+
+KEY FINDINGS
+Highest average cognitive load: Medium (3.19).
+Longest average focus duration: Medium (45.38 minutes).
+
+Correlation indicates association, not causation. Complexity scores represent ordered categories and do not imply equal distances between categories.

@@ -1,0 +1,4 @@
+task_complexity,task_count,average_focus_duration,median_focus_duration,average_cognitive_load,median_cognitive_load
+Low,174,44.84,41.0,3.08,3.0
+Medium,152,45.38,41.5,3.19,3.0
+High,174,40.9,34.5,3.13,3.0
