@@ -1,0 +1,28 @@
+COGNISTREAM - DAY 14
+PRODUCTIVITY VS COGNITIVE LOAD ANALYSIS
+=======================================================
+
+Total original records: 500
+Valid analysis records: 500
+Excluded records: 0
+
+PRODUCTIVITY SUMMARY
+-------------------------------------------------------
+cognitive_load_category  session_count  average_tasks_completed  median_tasks_completed  average_focus_duration  average_cognitive_load
+                    Low            178                     2.48                     2.0                   44.39                    1.50
+                 Medium             89                     2.51                     2.0                   43.15                    3.00
+                   High            233                     2.25                     2.0                   43.24                    4.42
+
+SPEARMAN CORRELATIONS
+-------------------------------------------------------
+                       cognitive_load_rating  tasks_completed  focus_duration_min
+cognitive_load_rating                  1.000           -0.066              -0.031
+tasks_completed                       -0.066            1.000               0.024
+focus_duration_min                    -0.031            0.024               1.000
+
+INTERPRETATION GUIDANCE
+-------------------------------------------------------
+A negative correlation between cognitive load and tasks completed indicates that higher cognitive-load ratings tend to accompany fewer completed tasks.
+A positive correlation indicates that higher ratings tend to accompany more completed tasks.
+A correlation near zero indicates little monotonic association in this dataset.
+Correlation does not prove causation. Task complexity, task type, and session duration may also affect the results.

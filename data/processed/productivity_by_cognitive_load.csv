@@ -1,0 +1,4 @@
+cognitive_load_category,session_count,average_tasks_completed,median_tasks_completed,average_focus_duration,average_cognitive_load
+Low,178,2.4831460674157304,2.0,44.3876404494382,1.5
+Medium,89,2.50561797752809,2.0,43.146067415730336,3.0
+High,233,2.2532188841201717,2.0,43.24034334763949,4.424892703862661

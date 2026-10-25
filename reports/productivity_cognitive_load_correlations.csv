@@ -1,0 +1,4 @@
+,cognitive_load_rating,tasks_completed,focus_duration_min
+cognitive_load_rating,1.0,-0.06584526493757192,-0.03050678496586082
+tasks_completed,-0.06584526493757192,1.0,0.02421769412062713
+focus_duration_min,-0.03050678496586082,0.02421769412062713,1.0
