@@ -1,0 +1,37 @@
+DEVELOPER WORK INSIGHTS REPORT
+=======================================================
+
+Total work sessions analyzed: 500
+
+1. OVERALL WORK PATTERNS
+------------------------------
+Average focus duration: 43.63 minutes
+Average interruptions: 5.14
+Average task switches: 4.11
+Average cognitive load: 3.13
+Average tasks completed per session: 2.38
+
+2. KEY FINDINGS
+------------------------------
+Lowest average focus duration: Testing (39.02 minutes)
+Highest average cognitive load: Code Review (3.27)
+Highest average interruptions: Coding (5.45)
+
+3. RECOMMENDATIONS
+------------------------------
+Review the workflow for Testing, as it has the lowest average focus duration.
+Examine the challenges associated with Code Review, which has the highest average cognitive load.
+Investigate interruption patterns during Coding to identify possible opportunities to reduce disruptions.
+Compare these findings with project reports before making decisions about workload or work scheduling.
+
+4. TASK TYPE COMPARISON
+------------------------------
+               average_focus  average_cognitive_load  average_interruptions  average_tasks_completed
+task_type                                                                                           
+Code Review            45.76                    3.27                   5.04                     2.36
+Coding                 40.99                    3.00                   5.45                     2.37
+Debugging              46.60                    3.06                   4.97                     2.46
+Documentation          45.61                    3.17                   5.22                     2.22
+Testing                39.02                    3.16                   4.96                     2.53
+
+Note: This dataset is synthetic. Findings describe the generated data and should not be treated as evidence about real developers.
