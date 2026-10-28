@@ -1,0 +1,60 @@
+=================================================================
+COGNISTREAM: PRODUCTIVITY INSIGHTS REPORT
+=================================================================
+
+DATASET OVERVIEW
+-----------------------------------------------------------------
+Valid sessions analyzed: 500
+Unique developers: 10
+Task types analyzed: 5
+
+OVERALL PRODUCTIVITY METRICS
+-----------------------------------------------------------------
+Total valid sessions: 500
+Average focus duration: 43.63
+Average interruptions: 5.14
+Average task switches: 4.11
+Average cognitive load: 3.13
+Average tasks completed: 2.38
+
+TASK-TYPE COMPARISON
+-----------------------------------------------------------------
+    task_type  average_focus_duration  average_interruptions  average_task_switches  average_cognitive_load  total_tasks_completed
+  Code Review                   45.76                   5.04                   4.33                    3.27                    229
+       Coding                   40.99                   5.45                   4.50                    3.00                    256
+    Debugging                   46.60                   4.97                   3.71                    3.06                    219
+Documentation                   45.61                   5.22                   4.12                    3.17                    258
+      Testing                   39.02                   4.96                   3.80                    3.16                    228
+
+KEY FINDINGS
+-----------------------------------------------------------------
+Lowest average focus duration: Testing (39.02 minutes)
+Highest average focus duration: Debugging (46.60 minutes)
+Highest average interruptions: Coding (5.45)
+Highest average cognitive load: Code Review (3.27)
+
+DEVELOPER PERFORMANCE SUMMARY
+-----------------------------------------------------------------
+developer_id  total_sessions  average_focus_duration  average_interruptions  average_task_switches  average_cognitive_load  total_tasks_completed
+      DEV001              43                   39.56                   5.12                   4.21                    3.26                    106
+      DEV002              52                   46.90                   4.81                   3.71                    3.08                    124
+      DEV003              53                   47.06                   4.17                   4.19                    3.23                    138
+      DEV004              41                   36.29                   4.02                   4.20                    2.59                     83
+      DEV005              52                   42.69                   5.21                   3.73                    3.27                    131
+      DEV006              59                   52.05                   5.68                   4.71                    3.08                    148
+      DEV007              51                   40.08                   6.02                   3.65                    3.04                    111
+      DEV008              35                   43.63                   5.43                   4.03                    3.37                     79
+      DEV009              58                   47.88                   5.09                   4.41                    2.97                    131
+      DEV010              56                   36.70                   5.66                   4.16                    3.41                    139
+
+RECOMMENDATIONS
+-----------------------------------------------------------------
+1. Review tasks with the lowest average focus duration (Testing). Investigate possible causes before changing the workflow.
+2. Review interruption patterns for Coding, which has the highest average interruptions.
+3. Examine the workload and complexity of Code Review, which has the highest average cognitive load.
+4. Compare task switching with focus duration to identify patterns that may be worth investigating.
+5. Use these results as exploratory insights rather than proof of cause and effect.
+
+NOTE
+-----------------------------------------------------------------
+Interpret these results in the context of the dataset. If the records are synthetic, they demonstrate the analysis workflow and do not represent verified real-world behavior.
