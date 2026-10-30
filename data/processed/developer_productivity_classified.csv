@@ -1,0 +1,501 @@
+session_id,developer_id,date,start_hour,task_type,session_duration_min,focus_duration_min,interruptions,task_switches,task_complexity,cognitive_load_rating,tasks_completed,productivity_score,productivity_category
+S0001,DEV004,2026-10-19,11,Coding,111,24,0,4,High,5,0,33.12,Low Productivity
+S0002,DEV002,2026-10-18,12,Documentation,105,64,0,0,High,1,4,81.24,High Productivity
+S0003,DEV007,2026-10-19,16,Documentation,55,55,10,8,Medium,1,1,40.800000000000004,Moderate Productivity
+S0004,DEV003,2026-10-18,14,Coding,119,64,5,4,Low,4,0,45.660000000000004,Moderate Productivity
+S0005,DEV001,2026-11-04,16,Documentation,75,54,9,4,Low,4,0,34.68,Moderate Productivity
+S0006,DEV010,2026-10-18,10,Coding,100,47,10,5,High,2,2,44.28,Moderate Productivity
+S0007,DEV007,2026-10-20,16,Code Review,40,37,3,1,Low,3,2,51.56,Moderate Productivity
+S0008,DEV010,2026-11-01,11,Documentation,56,52,4,1,High,2,1,51.239999999999995,Moderate Productivity
+S0009,DEV004,2026-11-02,14,Coding,89,58,4,8,Low,1,2,60.720000000000006,Moderate Productivity
+S0010,DEV010,2026-11-09,14,Debugging,81,44,1,3,High,4,3,64.92,Moderate Productivity
+S0011,DEV003,2026-10-19,17,Documentation,112,68,2,4,Medium,5,3,73.12,High Productivity
+S0012,DEV003,2026-10-28,16,Coding,104,61,5,3,Low,1,1,52.100000000000016,Moderate Productivity
+S0013,DEV010,2026-10-14,15,Testing,110,30,10,6,High,4,4,46.20000000000001,Moderate Productivity
+S0014,DEV009,2026-11-05,13,Code Review,62,45,0,1,Low,3,3,67.24,High Productivity
+S0015,DEV009,2026-11-05,11,Documentation,50,39,0,4,Low,3,5,76.08000000000001,High Productivity
+S0016,DEV006,2026-11-05,11,Documentation,94,87,3,2,High,1,4,81.92000000000002,High Productivity
+S0017,DEV006,2026-11-09,13,Debugging,71,41,0,1,Low,2,4,70.72,High Productivity
+S0018,DEV009,2026-11-05,11,Debugging,40,12,7,1,High,4,4,38.660000000000004,Moderate Productivity
+S0019,DEV004,2026-11-10,17,Debugging,51,26,8,6,High,3,3,40.92,Moderate Productivity
+S0020,DEV009,2026-10-26,10,Debugging,115,93,5,7,Low,1,2,67.38000000000001,High Productivity
+S0021,DEV010,2026-10-19,9,Coding,32,28,8,3,High,1,1,28.640000000000004,Low Productivity
+S0022,DEV002,2026-10-28,12,Code Review,38,38,0,5,High,4,1,49.44,Moderate Productivity
+S0023,DEV004,2026-11-06,16,Testing,99,26,9,7,Low,1,0,17.96,Low Productivity
+S0024,DEV007,2026-10-26,9,Coding,114,65,5,6,Low,4,5,79.62000000000002,High Productivity
+S0025,DEV004,2026-10-29,16,Debugging,73,23,3,3,Medium,2,2,42.72,Moderate Productivity
+S0026,DEV009,2026-10-15,9,Documentation,89,41,1,7,Low,1,1,49.32,Moderate Productivity
+S0027,DEV004,2026-11-08,15,Coding,51,36,7,7,Low,4,0,28.26,Low Productivity
+S0028,DEV007,2026-11-03,17,Testing,79,43,7,4,Low,2,2,47.58,Moderate Productivity
+S0029,DEV001,2026-11-04,14,Coding,57,13,9,8,Low,5,3,29.599999999999998,Low Productivity
+S0030,DEV009,2026-10-14,11,Coding,94,77,2,0,High,1,5,87.4,High Productivity
+S0031,DEV010,2026-10-31,9,Documentation,60,35,1,3,Low,4,5,72.00000000000001,High Productivity
+S0032,DEV005,2026-10-18,14,Debugging,104,82,8,5,Medium,4,1,51.36000000000001,Moderate Productivity
+S0033,DEV006,2026-11-10,10,Coding,115,92,4,7,Medium,5,4,81.2,High Productivity
+S0034,DEV009,2026-10-20,11,Code Review,42,14,8,3,Low,2,2,25.919999999999998,Low Productivity
+S0035,DEV005,2026-10-31,17,Coding,66,20,7,8,High,5,2,32.580000000000005,Low Productivity
+S0036,DEV002,2026-11-09,10,Documentation,114,23,2,4,Low,3,2,44.32000000000001,Moderate Productivity
+S0037,DEV005,2026-10-28,16,Code Review,107,36,5,3,Low,1,5,65.86000000000001,Moderate Productivity
+S0038,DEV006,2026-11-05,11,Code Review,84,45,0,0,Low,4,4,73.24,High Productivity
+S0039,DEV002,2026-10-14,11,Documentation,120,64,8,0,Low,3,4,66.8,High Productivity
+S0040,DEV001,2026-10-21,14,Coding,100,28,6,2,Medium,2,5,58.74,Moderate Productivity
+S0041,DEV009,2026-11-09,15,Documentation,61,52,1,5,High,2,1,56.04,Moderate Productivity
+S0042,DEV003,2026-11-04,14,Testing,50,21,6,0,High,2,2,35.540000000000006,Moderate Productivity
+S0043,DEV008,2026-10-19,12,Testing,50,16,6,0,Medium,3,1,23.900000000000006,Low Productivity
+S0044,DEV007,2026-10-22,13,Coding,58,11,10,3,Medium,3,5,38.720000000000006,Moderate Productivity
+S0045,DEV006,2026-10-12,10,Code Review,95,61,10,8,Low,5,2,50.000000000000014,Moderate Productivity
+S0046,DEV006,2026-11-04,14,Testing,34,13,9,6,High,5,0,8.44,Low Productivity
+S0047,DEV007,2026-10-12,17,Documentation,79,34,4,0,High,2,2,48.24,Moderate Productivity
+S0048,DEV010,2026-10-22,10,Code Review,85,18,10,5,High,3,5,43.88,Moderate Productivity
+S0049,DEV009,2026-10-16,12,Testing,82,51,6,4,High,4,5,72.98000000000002,High Productivity
+S0050,DEV007,2026-10-29,9,Code Review,52,49,9,4,Medium,2,3,53.19999999999999,Moderate Productivity
+S0051,DEV008,2026-10-26,16,Debugging,104,87,10,5,High,4,5,75.08,High Productivity
+S0052,DEV010,2026-10-22,10,Debugging,51,15,4,8,High,3,1,26.880000000000003,Low Productivity
+S0053,DEV004,2026-10-27,10,Testing,55,19,0,0,Medium,5,1,36.6,Moderate Productivity
+S0054,DEV004,2026-10-16,9,Coding,119,59,7,6,Medium,2,1,47.5,Moderate Productivity
+S0055,DEV009,2026-10-19,10,Testing,119,76,7,0,Low,4,5,77.82000000000001,High Productivity
+S0056,DEV008,2026-10-31,17,Testing,97,81,9,5,High,4,1,49.28000000000001,Moderate Productivity
+S0057,DEV005,2026-11-05,17,Testing,90,67,4,3,High,2,2,63.440000000000005,Moderate Productivity
+S0058,DEV005,2026-10-22,14,Documentation,86,19,4,3,Low,2,1,30.080000000000005,Low Productivity
+S0059,DEV002,2026-10-25,15,Code Review,59,34,2,3,High,4,3,57.64,Moderate Productivity
+S0060,DEV010,2026-11-03,9,Documentation,37,16,6,6,Medium,4,0,16.42,Low Productivity
+S0061,DEV009,2026-11-04,17,Documentation,75,48,6,6,Low,4,1,44.900000000000006,Moderate Productivity
+S0062,DEV007,2026-10-22,15,Debugging,64,37,7,0,Medium,2,4,56.06000000000001,Moderate Productivity
+S0063,DEV002,2026-11-01,15,Debugging,98,13,6,0,Medium,2,0,14.26,Low Productivity
+S0064,DEV008,2026-10-22,14,Testing,63,34,5,3,Medium,4,2,46.34,Moderate Productivity
+S0065,DEV001,2026-10-23,12,Coding,40,25,0,8,High,1,0,33.64,Moderate Productivity
+S0066,DEV004,2026-10-16,16,Coding,61,22,0,2,High,2,3,52.96000000000001,Moderate Productivity
+S0067,DEV010,2026-10-31,10,Debugging,119,42,5,2,Medium,1,4,63.10000000000001,Moderate Productivity
+S0068,DEV007,2026-11-03,12,Coding,33,19,9,6,High,2,0,12.880000000000003,Low Productivity
+S0069,DEV010,2026-11-06,9,Code Review,119,108,4,1,High,4,5,89.16000000000001,High Productivity
+S0070,DEV001,2026-11-08,15,Testing,77,18,8,5,Low,4,2,29.000000000000004,Low Productivity
+S0071,DEV003,2026-11-04,17,Code Review,111,68,2,6,High,5,3,73.12,High Productivity
+S0072,DEV006,2026-11-08,12,Coding,89,65,9,4,Medium,4,1,45.720000000000006,Moderate Productivity
+S0073,DEV006,2026-10-12,16,Code Review,89,82,9,6,Low,4,1,49.56,Moderate Productivity
+S0074,DEV010,2026-11-03,13,Documentation,75,43,5,4,Low,5,1,44.06,Moderate Productivity
+S0075,DEV009,2026-11-05,12,Testing,40,17,6,7,High,4,3,38.54,Moderate Productivity
+S0076,DEV007,2026-11-03,12,Code Review,32,12,4,3,High,5,2,32.480000000000004,Low Productivity
+S0077,DEV007,2026-11-04,17,Code Review,90,80,8,5,Medium,4,2,58.36,Moderate Productivity
+S0078,DEV004,2026-10-22,10,Documentation,69,26,3,1,High,2,1,36.84,Moderate Productivity
+S0079,DEV010,2026-11-05,17,Documentation,57,57,7,4,Medium,1,1,46.940000000000005,Moderate Productivity
+S0080,DEV005,2026-10-12,17,Debugging,67,24,5,2,Medium,1,0,24.7,Low Productivity
+S0081,DEV002,2026-11-08,9,Documentation,100,47,2,7,Medium,4,3,65.24000000000001,Moderate Productivity
+S0082,DEV005,2026-11-08,16,Coding,86,53,2,0,Low,4,3,68.43999999999998,High Productivity
+S0083,DEV003,2026-10-16,13,Coding,39,28,10,0,Low,1,4,44.68000000000001,Moderate Productivity
+S0084,DEV008,2026-11-10,16,Code Review,83,38,8,6,High,4,2,42.559999999999995,Moderate Productivity
+S0085,DEV004,2026-11-01,12,Code Review,102,89,0,1,High,1,1,67.48,High Productivity
+S0086,DEV003,2026-10-12,15,Testing,60,21,8,1,High,5,3,37.63999999999999,Moderate Productivity
+S0087,DEV005,2026-11-03,16,Coding,67,12,3,4,High,2,2,34.160000000000004,Moderate Productivity
+S0088,DEV007,2026-10-15,17,Debugging,110,85,10,3,High,2,2,55.96,Moderate Productivity
+S0089,DEV005,2026-10-31,13,Testing,48,14,0,2,Low,4,5,58.879999999999995,Moderate Productivity
+S0090,DEV009,2026-10-29,16,Testing,68,54,6,4,Low,5,0,40.5,Moderate Productivity
+S0091,DEV001,2026-10-14,12,Documentation,85,51,9,4,High,1,5,67.16000000000001,High Productivity
+S0092,DEV008,2026-10-28,16,Code Review,64,46,0,2,Low,5,3,67.88000000000001,High Productivity
+S0093,DEV006,2026-10-25,14,Code Review,111,72,1,7,High,1,1,61.64000000000001,Moderate Productivity
+S0094,DEV007,2026-11-07,17,Coding,72,36,7,4,Medium,1,2,43.300000000000004,Moderate Productivity
+S0095,DEV009,2026-11-07,9,Documentation,62,30,1,6,Medium,4,0,35.400000000000006,Moderate Productivity
+S0096,DEV008,2026-11-05,9,Debugging,54,43,5,7,Medium,5,1,44.06,Moderate Productivity
+S0097,DEV001,2026-11-01,12,Debugging,66,38,7,1,Medium,5,0,29.500000000000004,Low Productivity
+S0098,DEV002,2026-10-26,10,Debugging,100,62,1,3,Medium,3,4,78.88000000000002,High Productivity
+S0099,DEV008,2026-10-19,16,Documentation,120,44,6,7,Low,4,1,42.54,Moderate Productivity
+S0100,DEV005,2026-11-05,15,Code Review,106,75,2,1,High,3,0,53.239999999999995,Moderate Productivity
+S0101,DEV003,2026-10-26,17,Testing,66,56,4,7,Medium,3,4,72.32000000000001,High Productivity
+S0102,DEV004,2026-11-03,12,Documentation,99,58,7,5,Medium,2,3,60.90000000000001,Moderate Productivity
+S0103,DEV007,2026-11-02,11,Testing,35,20,7,6,Low,2,4,44.7,Moderate Productivity
+S0104,DEV002,2026-10-28,16,Coding,105,52,1,7,High,2,3,69.72,High Productivity
+S0105,DEV005,2026-10-22,15,Coding,113,29,1,7,Medium,5,3,55.64,Moderate Productivity
+S0106,DEV001,2026-10-31,10,Debugging,70,50,7,8,High,3,1,44.06,Moderate Productivity
+S0107,DEV008,2026-10-17,13,Coding,41,37,1,1,Low,3,0,39.64,Moderate Productivity
+S0108,DEV003,2026-10-19,17,Testing,67,32,5,6,High,2,1,37.580000000000005,Moderate Productivity
+S0109,DEV010,2026-11-02,12,Testing,52,15,9,6,High,2,1,17.160000000000004,Low Productivity
+S0110,DEV001,2026-11-09,16,Code Review,89,42,7,4,High,5,1,39.38,Moderate Productivity
+S0111,DEV007,2026-11-03,13,Testing,39,24,5,4,Medium,2,3,45.86,Moderate Productivity
+S0112,DEV010,2026-10-23,13,Code Review,91,23,3,6,Low,4,2,42.72,Moderate Productivity
+S0113,DEV010,2026-11-04,16,Code Review,31,28,10,0,Low,5,2,32.56,Low Productivity
+S0114,DEV003,2026-11-01,10,Coding,58,50,3,4,Medium,4,0,44.2,Moderate Productivity
+S0115,DEV005,2026-10-22,15,Debugging,104,56,2,1,Low,2,4,75.6,High Productivity
+S0116,DEV005,2026-11-10,16,Code Review,76,74,4,2,High,3,0,49.760000000000005,Moderate Productivity
+S0117,DEV007,2026-11-08,17,Code Review,89,19,2,3,Low,4,0,25.880000000000003,Low Productivity
+S0118,DEV006,2026-11-02,13,Documentation,63,44,1,7,Medium,3,0,43.76,Moderate Productivity
+S0119,DEV010,2026-11-09,17,Code Review,116,39,7,0,High,2,5,63.62000000000001,Moderate Productivity
+S0120,DEV007,2026-10-15,11,Coding,38,30,7,4,Low,3,3,45.82000000000001,Moderate Productivity
+S0121,DEV003,2026-10-24,16,Code Review,44,16,3,8,High,5,3,43.16,Moderate Productivity
+S0122,DEV002,2026-11-07,16,Documentation,105,105,2,6,Medium,3,0,58.71999999999999,Moderate Productivity
+S0123,DEV008,2026-10-19,14,Coding,118,57,3,7,High,3,4,74.24,High Productivity
+S0124,DEV005,2026-10-18,10,Testing,112,55,0,6,Low,2,5,84.96000000000001,High Productivity
+S0125,DEV006,2026-10-19,11,Documentation,111,86,0,0,Low,1,4,86.44000000000001,High Productivity
+S0126,DEV006,2026-11-05,11,Documentation,56,47,3,3,Low,3,1,49.96000000000001,Moderate Productivity
+S0127,DEV002,2026-11-02,9,Debugging,46,44,4,2,Low,3,1,46.440000000000005,Moderate Productivity
+S0128,DEV005,2026-10-13,11,Testing,105,51,0,2,High,1,5,83.4,High Productivity
+S0129,DEV009,2026-10-30,10,Testing,38,25,7,5,High,2,4,48.34,Moderate Productivity
+S0130,DEV005,2026-10-26,9,Coding,35,33,10,8,Medium,4,3,42.16,Moderate Productivity
+S0131,DEV002,2026-11-09,10,Code Review,117,23,7,7,High,2,0,20.06,Low Productivity
+S0132,DEV006,2026-10-24,17,Code Review,46,27,9,8,Medium,5,4,45.800000000000004,Moderate Productivity
+S0133,DEV004,2026-10-25,16,Debugging,85,22,1,8,Medium,3,3,51.239999999999995,Moderate Productivity
+S0134,DEV007,2026-10-22,13,Code Review,81,63,1,5,Low,4,0,52.04,Moderate Productivity
+S0135,DEV002,2026-11-04,14,Debugging,41,15,1,6,High,1,4,51.36000000000001,Moderate Productivity
+S0136,DEV007,2026-10-23,15,Coding,101,81,5,1,Medium,5,2,64.66000000000001,Moderate Productivity
+S0137,DEV004,2026-10-16,16,Debugging,75,23,9,8,Low,3,4,43.440000000000005,Moderate Productivity
+S0138,DEV007,2026-11-08,17,Documentation,77,24,4,3,High,5,0,26.6,Low Productivity
+S0139,DEV003,2026-10-20,13,Code Review,107,94,4,0,Medium,1,1,61.88,Moderate Productivity
+S0140,DEV002,2026-10-16,9,Coding,48,46,10,6,High,5,1,36.120000000000005,Moderate Productivity
+S0141,DEV003,2026-10-23,13,Code Review,78,63,7,5,High,5,0,41.300000000000004,Moderate Productivity
+S0142,DEV002,2026-10-20,16,Testing,36,14,2,0,Medium,5,3,43.24,Moderate Productivity
+S0143,DEV002,2026-10-23,15,Coding,83,44,3,8,Medium,5,3,61.8,Moderate Productivity
+S0144,DEV004,2026-10-24,9,Coding,97,95,4,0,Low,3,1,62.12,Moderate Productivity
+S0145,DEV002,2026-10-12,16,Testing,47,26,4,5,Low,2,3,48.84,Moderate Productivity
+S0146,DEV006,2026-10-14,15,Coding,98,39,8,8,Medium,1,3,49.239999999999995,Moderate Productivity
+S0147,DEV010,2026-10-24,15,Code Review,39,37,5,6,Low,4,0,32.940000000000005,Low Productivity
+S0148,DEV006,2026-10-14,15,Coding,71,20,9,7,Low,4,4,40.92000000000001,Moderate Productivity
+S0149,DEV005,2026-11-04,14,Debugging,81,77,1,6,Medium,2,0,55.36000000000001,Moderate Productivity
+S0150,DEV009,2026-10-18,14,Code Review,95,91,1,8,High,2,1,66.0,Moderate Productivity
+S0151,DEV003,2026-10-31,11,Coding,43,19,4,3,Low,4,3,43.760000000000005,Moderate Productivity
+S0152,DEV006,2026-10-16,16,Coding,102,84,7,5,Medium,4,5,79.82000000000001,High Productivity
+S0153,DEV006,2026-10-28,10,Code Review,68,60,4,0,Medium,4,0,46.160000000000004,Moderate Productivity
+S0154,DEV002,2026-10-31,17,Testing,37,21,4,1,Medium,5,4,51.56,Moderate Productivity
+S0155,DEV006,2026-10-31,16,Documentation,35,24,9,3,Low,1,3,38.04,Moderate Productivity
+S0156,DEV003,2026-10-13,12,Testing,43,31,1,8,Medium,5,4,63.480000000000004,Moderate Productivity
+S0157,DEV005,2026-10-24,15,Code Review,108,30,5,5,High,5,0,28.700000000000003,Low Productivity
+S0158,DEV006,2026-10-15,17,Testing,110,92,5,1,Medium,3,5,85.7,High Productivity
+S0159,DEV002,2026-10-30,11,Code Review,114,87,2,5,Medium,4,1,63.84000000000001,Moderate Productivity
+S0160,DEV009,2026-10-24,14,Debugging,106,100,1,4,High,5,0,60.160000000000004,Moderate Productivity
+S0161,DEV006,2026-10-12,14,Code Review,112,95,6,8,Low,2,2,65.78,Moderate Productivity
+S0162,DEV003,2026-10-14,13,Coding,92,34,3,2,High,5,5,68.44000000000001,High Productivity
+S0163,DEV010,2026-10-16,15,Debugging,97,14,10,5,Low,2,5,40.800000000000004,Moderate Productivity
+S0164,DEV007,2026-10-23,12,Testing,109,31,7,0,High,3,5,59.14,Moderate Productivity
+S0165,DEV005,2026-11-06,16,Debugging,87,39,8,3,Medium,5,3,49.239999999999995,Moderate Productivity
+S0166,DEV009,2026-10-25,11,Debugging,89,46,6,8,High,2,2,51.34000000000001,Moderate Productivity
+S0167,DEV009,2026-11-10,10,Documentation,36,30,7,5,Low,3,0,24.660000000000004,Low Productivity
+S0168,DEV003,2026-11-07,15,Coding,50,27,7,8,Low,4,2,37.46000000000001,Moderate Productivity
+S0169,DEV009,2026-10-23,12,Testing,33,23,0,6,Low,3,1,40.0,Moderate Productivity
+S0170,DEV003,2026-10-16,9,Code Review,33,20,1,5,Medium,2,5,61.84,Moderate Productivity
+S0171,DEV002,2026-10-12,13,Debugging,90,67,9,0,Low,5,5,72.24000000000001,High Productivity
+S0172,DEV005,2026-10-19,13,Coding,107,77,6,1,Low,2,3,67.82000000000001,High Productivity
+S0173,DEV002,2026-10-15,16,Documentation,111,111,9,7,High,1,5,79.60000000000001,High Productivity
+S0174,DEV005,2026-10-25,9,Documentation,95,83,3,2,Medium,2,4,80.84,High Productivity
+S0175,DEV009,2026-10-23,10,Documentation,83,33,10,1,High,5,4,48.160000000000004,Moderate Productivity
+S0176,DEV001,2026-11-01,15,Code Review,100,12,6,7,Medium,1,2,28.580000000000005,Low Productivity
+S0177,DEV010,2026-11-04,14,Debugging,38,21,3,1,Low,3,4,53.239999999999995,Moderate Productivity
+S0178,DEV008,2026-11-01,11,Debugging,73,32,10,7,Low,4,0,20.440000000000005,Low Productivity
+S0179,DEV001,2026-10-22,13,Documentation,67,22,0,3,Medium,5,3,52.96000000000001,Moderate Productivity
+S0180,DEV005,2026-10-23,9,Code Review,62,12,10,3,Medium,1,2,20.92,Low Productivity
+S0181,DEV006,2026-10-17,16,Testing,85,61,7,6,Medium,5,2,55.620000000000005,Moderate Productivity
+S0182,DEV007,2026-10-31,11,Documentation,40,33,6,1,Medium,3,0,28.659999999999997,Low Productivity
+S0183,DEV005,2026-10-26,15,Debugging,40,20,10,4,High,4,2,26.96,Low Productivity
+S0184,DEV005,2026-11-01,9,Coding,87,15,5,6,High,4,2,32.54,Low Productivity
+S0185,DEV010,2026-11-02,16,Coding,95,30,0,2,Low,1,1,44.6,Moderate Productivity
+S0186,DEV010,2026-10-13,11,Testing,112,56,5,6,Medium,3,3,64.42,Moderate Productivity
+S0187,DEV006,2026-10-24,14,Code Review,39,28,2,8,Low,1,0,32.36000000000001,Low Productivity
+S0188,DEV009,2026-10-15,13,Code Review,53,41,8,6,High,4,1,36.6,Moderate Productivity
+S0189,DEV002,2026-10-16,10,Testing,108,46,7,3,Low,4,0,34.260000000000005,Moderate Productivity
+S0190,DEV002,2026-10-29,17,Code Review,117,50,10,5,Medium,2,5,64.52000000000001,Moderate Productivity
+S0191,DEV006,2026-10-28,12,Coding,120,99,10,2,Low,2,1,51.12,Moderate Productivity
+S0192,DEV010,2026-10-23,16,Documentation,93,13,5,8,Low,5,0,16.26,Low Productivity
+S0193,DEV009,2026-10-25,15,Documentation,38,19,6,7,Low,2,2,33.74,Moderate Productivity
+S0194,DEV009,2026-10-23,11,Documentation,112,19,7,7,High,5,1,24.140000000000008,Low Productivity
+S0195,DEV002,2026-10-28,11,Code Review,46,37,8,0,Low,2,2,41.959999999999994,Moderate Productivity
+S0196,DEV005,2026-11-08,10,Code Review,120,38,5,8,Low,5,2,48.58,Moderate Productivity
+S0197,DEV002,2026-10-28,11,Documentation,46,29,9,8,High,2,1,27.440000000000005,Low Productivity
+S0198,DEV010,2026-10-13,9,Coding,114,89,9,5,Low,5,2,58.8,Moderate Productivity
+S0199,DEV010,2026-11-01,9,Testing,113,36,9,6,High,5,2,39.52,Moderate Productivity
+S0200,DEV007,2026-10-21,16,Coding,112,48,7,3,High,1,1,42.86000000000001,Moderate Productivity
+S0201,DEV004,2026-10-22,11,Code Review,86,63,7,7,High,3,5,74.86,High Productivity
+S0202,DEV009,2026-10-29,10,Code Review,74,61,2,5,Low,4,0,49.800000000000004,Moderate Productivity
+S0203,DEV002,2026-10-13,13,Testing,64,38,3,2,High,4,1,44.6,Moderate Productivity
+S0204,DEV004,2026-11-05,11,Testing,50,30,9,5,High,4,3,42.040000000000006,Moderate Productivity
+S0205,DEV007,2026-10-28,16,Debugging,69,41,0,1,Low,5,2,58.60000000000001,Moderate Productivity
+S0206,DEV010,2026-11-09,16,Code Review,36,11,4,7,High,1,0,16.720000000000002,Low Productivity
+S0207,DEV007,2026-10-23,9,Testing,85,27,4,5,Low,5,4,55.52,Moderate Productivity
+S0208,DEV002,2026-10-24,17,Testing,54,33,8,4,High,3,4,51.800000000000004,Moderate Productivity
+S0209,DEV002,2026-10-24,14,Code Review,117,88,1,2,High,3,1,65.60000000000001,Moderate Productivity
+S0210,DEV009,2026-10-13,9,Coding,55,48,8,6,Low,3,3,54.559999999999995,Moderate Productivity
+S0211,DEV003,2026-10-22,14,Debugging,96,68,2,8,Medium,5,5,85.52,High Productivity
+S0212,DEV009,2026-10-29,16,Documentation,68,47,5,8,Medium,4,0,38.9,Moderate Productivity
+S0213,DEV007,2026-10-30,13,Coding,77,52,10,1,High,4,2,47.24,Moderate Productivity
+S0214,DEV001,2026-10-30,16,Debugging,113,110,9,3,High,5,3,67.11999999999999,High Productivity
+S0215,DEV004,2026-10-12,16,Code Review,48,25,0,1,Medium,2,3,54.800000000000004,Moderate Productivity
+S0216,DEV010,2026-11-10,16,Coding,118,36,6,8,High,2,4,57.46000000000001,Moderate Productivity
+S0217,DEV009,2026-10-24,14,Debugging,56,45,5,7,Medium,5,2,52.7,Moderate Productivity
+S0218,DEV010,2026-10-27,12,Debugging,99,55,10,4,Medium,5,2,48.36,Moderate Productivity
+S0219,DEV008,2026-10-22,16,Code Review,58,29,4,3,High,3,2,44.720000000000006,Moderate Productivity
+S0220,DEV006,2026-11-05,11,Code Review,45,44,6,6,Low,3,5,68.62,High Productivity
+S0221,DEV008,2026-10-18,12,Documentation,40,21,7,4,Medium,5,5,52.019999999999996,Moderate Productivity
+S0222,DEV004,2026-10-13,17,Debugging,64,18,1,3,High,2,0,26.680000000000003,Low Productivity
+S0223,DEV002,2026-11-02,11,Coding,42,36,5,7,High,2,3,53.459999999999994,Moderate Productivity
+S0224,DEV005,2026-10-22,13,Coding,113,70,7,3,Low,5,1,50.62,Moderate Productivity
+S0225,DEV003,2026-11-10,9,Testing,98,14,2,6,Medium,2,5,55.64,Moderate Productivity
+S0226,DEV005,2026-10-30,10,Code Review,67,66,0,0,Medium,4,5,88.32,High Productivity
+S0227,DEV009,2026-10-26,13,Debugging,99,77,7,2,Low,3,1,52.1,Moderate Productivity
+S0228,DEV006,2026-11-06,13,Documentation,88,42,2,0,High,2,1,48.6,Moderate Productivity
+S0229,DEV009,2026-10-22,10,Testing,108,91,6,6,High,1,1,57.300000000000004,Moderate Productivity
+S0230,DEV001,2026-10-20,15,Debugging,47,40,5,3,Medium,3,2,49.58,Moderate Productivity
+S0231,DEV005,2026-11-01,14,Debugging,68,47,9,0,Low,1,3,52.239999999999995,Moderate Productivity
+S0232,DEV005,2026-11-03,10,Code Review,69,20,6,8,Medium,5,1,27.060000000000006,Low Productivity
+S0233,DEV008,2026-11-04,14,Testing,58,18,7,2,High,5,3,37.1,Moderate Productivity
+S0234,DEV010,2026-11-08,10,Documentation,98,95,3,3,Medium,5,5,89.88000000000001,High Productivity
+S0235,DEV001,2026-11-07,17,Documentation,76,19,9,1,Low,5,4,40.040000000000006,Moderate Productivity
+S0236,DEV008,2026-10-15,12,Documentation,49,20,5,8,Medium,1,4,48.74000000000001,Moderate Productivity
+S0237,DEV009,2026-10-25,16,Documentation,87,17,7,2,Low,5,3,36.5,Moderate Productivity
+S0238,DEV007,2026-10-20,9,Debugging,116,113,4,0,High,1,0,55.92,Moderate Productivity
+S0239,DEV001,2026-11-10,10,Testing,84,54,1,8,Low,3,3,70.36,High Productivity
+S0240,DEV006,2026-11-09,15,Testing,53,18,10,6,Medium,4,0,10.320000000000002,Low Productivity
+S0241,DEV006,2026-10-15,11,Documentation,117,94,8,2,Medium,5,1,53.96000000000001,Moderate Productivity
+S0242,DEV008,2026-11-02,17,Testing,58,10,0,4,High,4,1,30.160000000000004,Low Productivity
+S0243,DEV005,2026-10-18,10,Coding,61,39,5,2,High,4,4,61.260000000000005,Moderate Productivity
+S0244,DEV002,2026-10-31,9,Testing,32,17,3,1,High,1,1,30.44,Low Productivity
+S0245,DEV009,2026-10-18,9,Debugging,35,22,7,3,High,3,1,26.820000000000004,Low Productivity
+S0246,DEV004,2026-10-21,11,Documentation,103,50,9,5,Low,4,2,47.84,Moderate Productivity
+S0247,DEV007,2026-10-29,16,Coding,65,13,8,2,Medium,4,4,37.4,Moderate Productivity
+S0248,DEV003,2026-10-21,15,Debugging,70,54,6,6,High,4,1,47.980000000000004,Moderate Productivity
+S0249,DEV001,2026-10-29,15,Testing,58,29,2,7,High,5,1,40.440000000000005,Moderate Productivity
+S0250,DEV006,2026-11-01,10,Testing,79,41,4,3,Medium,1,4,64.20000000000002,Moderate Productivity
+S0251,DEV010,2026-10-31,9,Coding,54,13,4,6,Low,5,5,51.72000000000001,Moderate Productivity
+S0252,DEV004,2026-11-08,14,Code Review,115,81,3,7,Low,2,1,60.68,Moderate Productivity
+S0253,DEV007,2026-11-10,12,Documentation,45,40,3,3,Medium,3,3,59.28,Moderate Productivity
+S0254,DEV005,2026-10-20,14,Documentation,89,78,10,5,Medium,4,0,39.28,Moderate Productivity
+S0255,DEV006,2026-10-25,9,Documentation,90,50,3,5,Low,2,0,44.2,Moderate Productivity
+S0256,DEV005,2026-10-16,12,Code Review,63,45,9,6,Low,4,4,56.99999999999999,Moderate Productivity
+S0257,DEV005,2026-11-05,16,Testing,61,41,8,5,Medium,2,5,62.68,Moderate Productivity
+S0258,DEV008,2026-10-17,17,Coding,75,31,2,8,High,1,0,34.800000000000004,Moderate Productivity
+S0259,DEV003,2026-11-07,12,Coding,115,16,0,6,High,2,0,26.839999999999996,Low Productivity
+S0260,DEV001,2026-10-31,16,Testing,57,42,7,5,Low,1,4,59.06000000000001,Moderate Productivity
+S0261,DEV009,2026-11-04,13,Documentation,100,62,0,0,Medium,1,4,80.60000000000001,High Productivity
+S0262,DEV002,2026-11-10,10,Documentation,119,96,6,2,Low,2,1,58.46,Moderate Productivity
+S0263,DEV005,2026-11-06,15,Coding,109,77,4,5,Medium,4,3,71.72,High Productivity
+S0264,DEV002,2026-11-01,9,Coding,102,41,3,4,Medium,4,3,59.88,Moderate Productivity
+S0265,DEV003,2026-10-14,16,Testing,100,70,0,0,High,3,4,82.76,High Productivity
+S0266,DEV010,2026-10-27,13,Coding,42,12,3,3,Low,3,4,46.28,Moderate Productivity
+S0267,DEV006,2026-10-12,12,Documentation,102,94,0,2,Low,4,0,60.919999999999995,Moderate Productivity
+S0268,DEV010,2026-11-07,15,Documentation,68,20,9,3,Medium,4,5,47.32000000000001,Moderate Productivity
+S0269,DEV001,2026-10-15,15,Debugging,47,15,8,5,Low,3,4,38.64000000000001,Moderate Productivity
+S0270,DEV001,2026-11-01,13,Testing,108,86,6,5,Medium,2,2,63.90000000000001,Moderate Productivity
+S0271,DEV010,2026-11-02,15,Coding,100,58,6,2,High,3,1,49.260000000000005,Moderate Productivity
+S0272,DEV007,2026-11-03,11,Testing,39,12,4,2,Medium,3,0,17.44,Low Productivity
+S0273,DEV006,2026-11-05,13,Coding,41,10,4,7,Low,1,1,23.640000000000004,Low Productivity
+S0274,DEV009,2026-10-25,10,Coding,85,67,8,8,Low,3,4,67.64,High Productivity
+S0275,DEV005,2026-10-25,15,Coding,41,30,6,0,High,5,1,34.18,Moderate Productivity
+S0276,DEV003,2026-10-16,13,Code Review,103,76,2,6,Medium,4,1,60.96,Moderate Productivity
+S0277,DEV007,2026-10-21,16,Coding,38,15,6,4,Medium,3,1,22.980000000000004,Low Productivity
+S0278,DEV008,2026-10-15,11,Code Review,110,73,9,3,Low,4,2,54.88000000000001,Moderate Productivity
+S0279,DEV006,2026-10-25,11,Code Review,109,58,5,7,Medium,5,5,77.34,High Productivity
+S0280,DEV007,2026-10-22,13,Testing,55,40,5,2,High,2,2,49.58,Moderate Productivity
+S0281,DEV002,2026-11-10,12,Documentation,78,45,6,5,High,2,5,69.22,High Productivity
+S0282,DEV008,2026-11-06,13,Coding,100,13,7,3,Medium,4,1,19.7,Low Productivity
+S0283,DEV003,2026-11-03,15,Testing,111,48,3,4,Low,4,4,70.16,High Productivity
+S0284,DEV009,2026-11-10,15,Documentation,91,84,6,8,Low,3,5,81.86000000000001,High Productivity
+S0285,DEV002,2026-11-05,12,Code Review,98,86,10,1,Low,5,0,41.2,Moderate Productivity
+S0286,DEV006,2026-11-06,15,Coding,102,92,10,6,Low,1,2,57.52,Moderate Productivity
+S0287,DEV010,2026-11-03,12,Testing,58,42,8,8,Medium,4,3,51.080000000000005,Moderate Productivity
+S0288,DEV006,2026-10-12,16,Coding,116,85,8,2,Medium,4,0,44.56,Moderate Productivity
+S0289,DEV006,2026-10-26,12,Documentation,44,19,5,4,Medium,3,3,41.86,Moderate Productivity
+S0290,DEV002,2026-10-21,9,Coding,42,38,7,5,Low,3,5,63.06,Moderate Productivity
+S0291,DEV003,2026-10-29,11,Code Review,43,20,3,8,High,4,3,46.32,Moderate Productivity
+S0292,DEV003,2026-11-01,15,Testing,59,35,10,2,Low,5,1,29.560000000000002,Low Productivity
+S0293,DEV001,2026-11-03,12,Debugging,87,85,6,6,Medium,1,4,75.74000000000001,High Productivity
+S0294,DEV004,2026-10-26,10,Code Review,43,21,5,5,High,4,4,49.660000000000004,Moderate Productivity
+S0295,DEV010,2026-10-24,10,Code Review,111,50,9,6,Medium,4,4,59.96,Moderate Productivity
+S0296,DEV003,2026-10-22,10,Debugging,52,29,9,1,Medium,1,1,27.440000000000005,Low Productivity
+S0297,DEV007,2026-10-31,11,Documentation,77,28,8,6,Medium,4,1,28.640000000000004,Low Productivity
+S0298,DEV009,2026-10-17,16,Code Review,92,91,8,2,Low,2,2,60.839999999999996,Moderate Productivity
+S0299,DEV008,2026-10-16,12,Testing,87,16,5,0,High,5,5,51.980000000000004,Moderate Productivity
+S0300,DEV007,2026-11-03,16,Testing,93,62,10,7,Low,1,4,62.52000000000001,Moderate Productivity
+S0301,DEV005,2026-10-19,17,Code Review,33,17,4,0,Low,4,4,48.440000000000005,Moderate Productivity
+S0302,DEV010,2026-10-15,13,Documentation,93,80,8,1,Medium,5,0,43.32,Moderate Productivity
+S0303,DEV002,2026-11-04,12,Code Review,86,79,3,6,Low,4,2,67.72,High Productivity
+S0304,DEV004,2026-10-18,14,Documentation,74,21,7,1,High,4,1,25.94,Low Productivity
+S0305,DEV001,2026-10-30,14,Documentation,108,27,3,3,Medium,5,4,57.2,Moderate Productivity
+S0306,DEV010,2026-10-20,17,Coding,51,30,4,4,Low,4,0,30.600000000000005,Low Productivity
+S0307,DEV003,2026-10-19,11,Code Review,65,65,10,2,Low,4,3,57.56,Moderate Productivity
+S0308,DEV007,2026-10-24,16,Coding,48,46,10,4,High,1,3,49.8,Moderate Productivity
+S0309,DEV008,2026-10-22,9,Coding,95,45,5,7,High,4,5,71.22,High Productivity
+S0310,DEV009,2026-10-24,12,Testing,115,99,5,1,Low,4,2,68.34000000000002,High Productivity
+S0311,DEV009,2026-10-30,11,Documentation,71,63,4,5,Medium,3,5,80.80000000000001,High Productivity
+S0312,DEV001,2026-10-15,11,Testing,36,11,1,7,Medium,1,3,42.68,Moderate Productivity
+S0313,DEV003,2026-11-08,13,Coding,55,54,2,4,High,3,2,62.72,Moderate Productivity
+S0314,DEV001,2026-10-24,13,Debugging,40,21,10,2,Medium,1,5,46.400000000000006,Moderate Productivity
+S0315,DEV002,2026-10-16,12,Documentation,42,10,3,7,High,4,0,17.84,Low Productivity
+S0316,DEV003,2026-10-27,10,Debugging,31,20,1,6,Medium,1,5,61.84,Moderate Productivity
+S0317,DEV005,2026-10-16,15,Debugging,43,16,5,5,High,2,0,18.42,Low Productivity
+S0318,DEV008,2026-10-23,12,Debugging,97,82,0,2,Medium,5,5,91.88000000000001,High Productivity
+S0319,DEV003,2026-11-05,10,Documentation,86,37,1,1,High,4,2,54.67999999999999,Moderate Productivity
+S0320,DEV005,2026-11-01,10,Debugging,84,50,2,3,High,5,4,72.96000000000001,High Productivity
+S0321,DEV004,2026-10-28,17,Debugging,107,46,0,4,High,4,2,61.760000000000005,Moderate Productivity
+S0322,DEV007,2026-10-15,12,Testing,112,16,3,7,High,5,0,22.0,Low Productivity
+S0323,DEV003,2026-10-24,15,Code Review,97,11,5,5,High,2,3,35.980000000000004,Moderate Productivity
+S0324,DEV001,2026-10-20,12,Coding,39,10,9,1,Low,4,4,33.60000000000001,Moderate Productivity
+S0325,DEV007,2026-11-03,15,Coding,66,50,8,6,High,5,4,61.760000000000005,Moderate Productivity
+S0326,DEV005,2026-10-14,17,Debugging,108,29,4,1,Low,5,2,44.720000000000006,Moderate Productivity
+S0327,DEV004,2026-10-13,12,Coding,80,18,4,6,Medium,1,3,43.04,Moderate Productivity
+S0328,DEV003,2026-10-15,9,Debugging,108,87,0,4,High,1,1,67.08000000000001,High Productivity
+S0329,DEV005,2026-10-17,14,Debugging,93,54,8,8,High,3,5,70.04,High Productivity
+S0330,DEV005,2026-10-28,10,Code Review,45,11,5,6,High,5,5,48.38000000000001,Moderate Productivity
+S0331,DEV006,2026-10-13,16,Documentation,39,25,7,8,Low,3,1,28.660000000000004,Low Productivity
+S0332,DEV004,2026-11-04,17,Coding,62,59,1,1,Low,1,1,58.24,Moderate Productivity
+S0333,DEV003,2026-10-17,9,Documentation,35,25,5,6,High,4,1,32.70000000000001,Low Productivity
+S0334,DEV005,2026-11-07,10,Documentation,71,25,6,5,Medium,1,4,50.38,Moderate Productivity
+S0335,DEV009,2026-10-13,15,Coding,116,16,2,3,Medium,3,2,38.64000000000001,Moderate Productivity
+S0336,DEV001,2026-10-23,12,Code Review,71,15,8,7,High,3,5,45.04,Moderate Productivity
+S0337,DEV010,2026-10-27,12,Documentation,109,41,7,5,Low,2,0,31.100000000000005,Low Productivity
+S0338,DEV006,2026-11-01,9,Code Review,82,13,3,8,Low,4,5,53.400000000000006,Moderate Productivity
+S0339,DEV004,2026-10-25,16,Coding,69,16,3,8,Low,3,0,22.0,Low Productivity
+S0340,DEV006,2026-10-26,10,Documentation,35,17,8,6,Low,5,1,20.840000000000003,Low Productivity
+S0341,DEV007,2026-11-02,11,Debugging,111,60,1,0,Medium,3,2,66.0,Moderate Productivity
+S0342,DEV005,2026-10-19,10,Debugging,80,51,5,7,Low,5,0,41.42,Moderate Productivity
+S0343,DEV008,2026-10-22,15,Coding,49,16,2,7,High,3,1,31.08000000000001,Low Productivity
+S0344,DEV002,2026-10-14,11,Code Review,87,49,7,4,High,5,0,35.82,Moderate Productivity
+S0345,DEV004,2026-10-23,15,Documentation,57,30,2,1,Low,3,2,48.92,Moderate Productivity
+S0346,DEV009,2026-11-04,17,Debugging,52,11,6,7,Low,4,0,12.82,Low Productivity
+S0347,DEV004,2026-10-16,12,Testing,47,17,0,0,Medium,1,4,54.96000000000001,Moderate Productivity
+S0348,DEV002,2026-10-18,16,Debugging,105,43,1,0,Low,3,0,43.28,Moderate Productivity
+S0349,DEV010,2026-10-25,15,Testing,35,24,0,2,Low,4,5,66.68,High Productivity
+S0350,DEV003,2026-10-20,13,Testing,84,32,5,3,Low,1,4,57.26000000000001,Moderate Productivity
+S0351,DEV008,2026-10-25,17,Testing,109,88,3,4,Low,1,2,70.04000000000002,High Productivity
+S0352,DEV009,2026-10-19,17,Coding,79,27,6,3,Medium,3,3,45.620000000000005,Moderate Productivity
+S0353,DEV006,2026-10-24,13,Debugging,99,72,5,8,Low,3,4,74.62,High Productivity
+S0354,DEV008,2026-10-28,14,Documentation,58,11,4,0,Low,2,0,16.720000000000002,Low Productivity
+S0355,DEV009,2026-11-07,9,Debugging,61,52,3,4,High,4,2,60.480000000000004,Moderate Productivity
+S0356,DEV006,2026-11-10,9,Code Review,52,21,3,5,High,5,1,33.56,Moderate Productivity
+S0357,DEV005,2026-10-17,16,Coding,102,34,7,8,Low,1,1,34.74,Moderate Productivity
+S0358,DEV008,2026-10-12,14,Documentation,107,38,0,8,Low,2,2,57.00000000000001,Moderate Productivity
+S0359,DEV003,2026-10-30,11,Coding,52,30,0,0,High,3,0,37.120000000000005,Moderate Productivity
+S0360,DEV006,2026-10-21,14,Debugging,77,60,9,1,Low,4,5,70.0,High Productivity
+S0361,DEV010,2026-11-06,14,Debugging,92,50,2,8,High,5,1,53.28000000000001,Moderate Productivity
+S0362,DEV003,2026-11-04,9,Documentation,78,49,4,2,Medium,5,0,41.760000000000005,Moderate Productivity
+S0363,DEV010,2026-10-15,16,Debugging,53,48,5,3,Medium,1,1,46.900000000000006,Moderate Productivity
+S0364,DEV006,2026-10-26,9,Code Review,74,50,2,1,Low,2,5,79.36000000000001,High Productivity
+S0365,DEV001,2026-10-13,15,Testing,38,21,4,1,High,4,1,31.880000000000003,Low Productivity
+S0366,DEV009,2026-10-24,10,Testing,82,73,6,5,High,2,1,53.14000000000001,Moderate Productivity
+S0367,DEV001,2026-10-22,13,Coding,87,19,0,4,Low,3,1,36.6,Moderate Productivity
+S0368,DEV002,2026-10-22,16,Coding,78,30,1,8,Medium,2,4,62.56000000000002,Moderate Productivity
+S0369,DEV006,2026-10-18,12,Testing,85,30,0,1,High,5,5,70.68,High Productivity
+S0370,DEV005,2026-10-19,10,Coding,99,43,10,4,Medium,5,4,54.080000000000005,Moderate Productivity
+S0371,DEV001,2026-10-25,10,Code Review,92,29,0,5,High,5,3,57.36,Moderate Productivity
+S0372,DEV003,2026-11-01,13,Coding,55,16,0,3,Medium,1,2,41.88000000000001,Moderate Productivity
+S0373,DEV002,2026-11-01,17,Testing,80,70,7,4,Low,3,3,64.3,Moderate Productivity
+S0374,DEV005,2026-10-26,16,Code Review,77,33,7,0,Low,3,4,53.78000000000001,Moderate Productivity
+S0375,DEV002,2026-11-02,14,Documentation,37,14,10,1,Medium,5,1,14.720000000000002,Low Productivity
+S0376,DEV007,2026-10-29,16,Documentation,100,17,6,8,Low,4,2,32.42,Low Productivity
+S0377,DEV010,2026-11-09,17,Documentation,40,22,0,8,High,5,1,39.28,Moderate Productivity
+S0378,DEV004,2026-11-06,12,Debugging,45,38,2,2,Low,4,0,38.720000000000006,Moderate Productivity
+S0379,DEV010,2026-10-20,14,Coding,117,65,3,2,Low,4,4,76.8,High Productivity
+S0380,DEV009,2026-10-26,9,Documentation,80,80,5,4,High,5,3,70.5,High Productivity
+S0381,DEV010,2026-10-30,10,Coding,44,36,2,2,High,1,2,52.52000000000001,Moderate Productivity
+S0382,DEV007,2026-11-01,16,Documentation,98,54,6,4,High,4,0,40.5,Moderate Productivity
+S0383,DEV010,2026-10-31,15,Coding,52,27,6,2,Medium,3,5,58.02,Moderate Productivity
+S0384,DEV006,2026-10-12,14,Code Review,60,13,7,4,Medium,3,3,33.379999999999995,Moderate Productivity
+S0385,DEV003,2026-10-21,16,Code Review,119,97,1,3,Medium,4,4,87.00000000000001,High Productivity
+S0386,DEV004,2026-11-10,15,Testing,112,21,3,7,High,3,0,26.080000000000002,Low Productivity
+S0387,DEV009,2026-10-24,11,Documentation,95,30,1,4,High,1,1,42.88,Moderate Productivity
+S0388,DEV001,2026-10-26,9,Code Review,54,22,0,3,High,2,2,46.84,Moderate Productivity
+S0389,DEV002,2026-11-02,9,Debugging,77,69,8,6,Medium,4,4,68.12,High Productivity
+S0390,DEV006,2026-10-23,11,Code Review,87,32,7,8,High,1,2,41.1,Moderate Productivity
+S0391,DEV010,2026-11-05,12,Debugging,33,22,0,2,High,2,5,65.36000000000001,Moderate Productivity
+S0392,DEV009,2026-10-12,9,Testing,56,27,10,6,Low,2,4,43.96000000000001,Moderate Productivity
+S0393,DEV005,2026-10-25,15,Code Review,31,17,4,4,Medium,3,1,28.76,Low Productivity
+S0394,DEV010,2026-10-24,10,Coding,89,48,10,8,High,3,4,56.92,Moderate Productivity
+S0395,DEV005,2026-11-02,10,Testing,112,86,9,4,Low,3,2,58.08000000000001,Moderate Productivity
+S0396,DEV005,2026-10-18,11,Documentation,111,51,4,4,Low,1,4,70.48,High Productivity
+S0397,DEV001,2026-11-01,16,Code Review,81,50,10,2,Medium,4,3,52.12,Moderate Productivity
+S0398,DEV006,2026-11-04,12,Documentation,79,14,9,3,High,4,5,42.64000000000001,Moderate Productivity
+S0399,DEV009,2026-10-17,13,Coding,75,74,4,2,Medium,2,5,83.32000000000002,High Productivity
+S0400,DEV006,2026-11-01,10,Debugging,63,56,8,2,Medium,2,5,70.80000000000001,High Productivity
+S0401,DEV005,2026-10-30,13,Testing,69,36,5,5,Low,4,0,32.300000000000004,Low Productivity
+S0402,DEV008,2026-11-09,12,Documentation,111,84,9,1,Low,4,4,69.64,High Productivity
+S0403,DEV003,2026-10-18,14,Testing,68,36,0,2,High,4,1,48.2,Moderate Productivity
+S0404,DEV008,2026-10-22,11,Code Review,70,65,2,1,High,1,0,51.239999999999995,Moderate Productivity
+S0405,DEV010,2026-11-05,11,Testing,87,45,3,2,Low,2,4,68.39999999999999,High Productivity
+S0406,DEV008,2026-10-24,9,Coding,85,64,6,6,High,2,5,77.22000000000001,High Productivity
+S0407,DEV004,2026-10-12,9,Debugging,77,11,5,8,Low,3,2,29.860000000000003,Low Productivity
+S0408,DEV010,2026-10-21,11,Coding,46,16,6,8,Low,3,2,31.460000000000004,Low Productivity
+S0409,DEV006,2026-10-25,11,Code Review,88,76,9,8,Medium,3,1,47.96,Moderate Productivity
+S0410,DEV004,2026-11-04,11,Debugging,51,35,0,3,High,1,4,67.32000000000001,High Productivity
+S0411,DEV001,2026-10-24,13,Documentation,94,31,1,5,High,1,4,63.480000000000004,Moderate Productivity
+S0412,DEV001,2026-11-03,10,Testing,36,31,1,0,Medium,4,0,36.32,Moderate Productivity
+S0413,DEV004,2026-11-03,9,Code Review,100,42,7,2,Medium,1,5,65.46000000000001,Moderate Productivity
+S0414,DEV007,2026-11-07,10,Documentation,96,44,9,2,High,5,0,29.24,Low Productivity
+S0415,DEV004,2026-10-31,12,Code Review,66,17,1,7,High,2,2,41.120000000000005,Moderate Productivity
+S0416,DEV001,2026-10-29,16,Debugging,120,62,4,2,High,4,2,61.96,Moderate Productivity
+S0417,DEV002,2026-11-07,16,Debugging,60,10,0,1,Low,5,0,22.68,Low Productivity
+S0418,DEV008,2026-10-21,13,Testing,42,26,10,3,Low,1,1,23.6,Low Productivity
+S0419,DEV007,2026-11-04,10,Coding,35,19,5,5,Low,1,1,28.180000000000007,Low Productivity
+S0420,DEV006,2026-11-09,16,Documentation,114,92,2,5,Medium,1,2,72.36,High Productivity
+S0421,DEV007,2026-10-26,13,Testing,73,33,1,6,High,4,3,58.519999999999996,Moderate Productivity
+S0422,DEV003,2026-11-03,9,Debugging,113,112,2,1,Low,4,4,86.28,High Productivity
+S0423,DEV003,2026-10-31,15,Code Review,91,82,10,7,High,1,5,73.80000000000001,High Productivity
+S0424,DEV007,2026-10-26,9,Coding,46,40,7,1,Medium,3,0,30.500000000000004,Low Productivity
+S0425,DEV006,2026-10-28,17,Documentation,120,96,8,3,Low,4,5,80.52,High Productivity
+S0426,DEV003,2026-11-07,17,Documentation,61,40,5,6,Low,1,5,68.10000000000001,High Productivity
+S0427,DEV003,2026-10-14,16,Code Review,50,42,7,7,Low,3,2,46.940000000000005,Moderate Productivity
+S0428,DEV007,2026-10-24,12,Coding,36,26,3,8,Medium,4,4,56.52,Moderate Productivity
+S0429,DEV006,2026-10-15,16,Coding,87,21,7,7,Low,4,3,39.62,Moderate Productivity
+S0430,DEV002,2026-11-06,13,Documentation,34,27,8,0,High,2,5,54.0,Moderate Productivity
+S0431,DEV001,2026-11-07,12,Testing,115,68,5,5,Medium,5,4,73.94000000000001,High Productivity
+S0432,DEV008,2026-10-15,10,Debugging,106,70,10,5,Low,3,2,52.559999999999995,Moderate Productivity
+S0433,DEV006,2026-11-03,10,Coding,111,47,8,8,Low,4,1,40.36000000000001,Moderate Productivity
+S0434,DEV004,2026-10-15,15,Debugging,82,23,4,3,Medium,2,5,59.56,Moderate Productivity
+S0435,DEV010,2026-10-15,16,Testing,73,23,6,0,High,5,4,49.260000000000005,Moderate Productivity
+S0436,DEV001,2026-10-29,15,Documentation,47,41,0,8,Medium,5,1,51.04,Moderate Productivity
+S0437,DEV002,2026-10-24,14,Documentation,118,84,2,2,Medium,4,4,82.64,High Productivity
+S0438,DEV007,2026-10-22,13,Testing,118,107,3,4,Low,2,3,78.36000000000001,High Productivity
+S0439,DEV009,2026-11-08,14,Documentation,107,99,8,4,High,2,1,54.76,Moderate Productivity
+S0440,DEV003,2026-11-03,11,Documentation,56,49,4,5,High,3,5,75.32000000000001,High Productivity
+S0441,DEV010,2026-10-30,15,Documentation,44,32,8,7,Medium,4,0,24.080000000000005,Low Productivity
+S0442,DEV003,2026-10-13,9,Debugging,96,23,0,6,Medium,2,2,47.56,Moderate Productivity
+S0443,DEV005,2026-10-18,17,Coding,117,42,2,0,Medium,4,0,41.120000000000005,Moderate Productivity
+S0444,DEV009,2026-10-24,12,Documentation,108,96,8,3,High,3,5,80.52,High Productivity
+S0445,DEV007,2026-11-06,14,Documentation,115,16,6,6,Low,1,5,49.980000000000004,Moderate Productivity
+S0446,DEV004,2026-11-10,14,Documentation,62,22,9,7,High,5,1,23.040000000000006,Low Productivity
+S0447,DEV002,2026-10-17,11,Documentation,54,28,7,2,Low,4,0,23.140000000000004,Low Productivity
+S0448,DEV003,2026-10-17,13,Coding,84,45,8,4,Medium,4,5,65.2,Moderate Productivity
+S0449,DEV010,2026-10-13,13,Testing,49,12,2,5,High,5,2,35.760000000000005,Moderate Productivity
+S0450,DEV004,2026-10-17,17,Coding,39,35,5,8,High,2,3,52.900000000000006,Moderate Productivity
+S0451,DEV006,2026-10-19,12,Code Review,99,78,6,1,Medium,3,2,61.980000000000004,Moderate Productivity
+S0452,DEV009,2026-11-07,9,Coding,57,49,8,7,High,3,3,54.99999999999999,Moderate Productivity
+S0453,DEV001,2026-11-02,14,Testing,60,51,9,3,Low,4,2,48.64000000000001,Moderate Productivity
+S0454,DEV006,2026-10-28,17,Testing,99,46,0,8,Medium,1,2,61.760000000000005,Moderate Productivity
+S0455,DEV002,2026-10-15,11,Documentation,113,34,5,8,High,1,5,64.86000000000001,Moderate Productivity
+S0456,DEV007,2026-11-07,10,Debugging,38,16,10,3,High,4,5,42.32,Moderate Productivity
+S0457,DEV001,2026-10-26,14,Coding,39,33,10,2,Low,1,0,21.0,Low Productivity
+S0458,DEV010,2026-11-07,12,Code Review,52,26,8,1,Medium,4,3,40.92,Moderate Productivity
+S0459,DEV001,2026-10-24,10,Documentation,110,61,6,5,Low,5,0,42.620000000000005,Moderate Productivity
+S0460,DEV009,2026-10-15,13,Code Review,104,15,1,5,High,1,2,39.24,Moderate Productivity
+S0461,DEV008,2026-10-17,17,Debugging,86,58,6,0,Low,4,4,68.94000000000001,High Productivity
+S0462,DEV006,2026-10-12,17,Documentation,67,50,2,4,Low,1,0,45.800000000000004,Moderate Productivity
+S0463,DEV009,2026-10-29,10,Code Review,30,28,9,6,Low,3,1,26.840000000000003,Low Productivity
+S0464,DEV003,2026-10-19,13,Debugging,82,75,2,2,Low,2,5,86.80000000000001,High Productivity
+S0465,DEV009,2026-10-14,13,Coding,102,16,8,7,Medium,1,1,19.880000000000003,Low Productivity
+S0466,DEV003,2026-11-02,12,Coding,104,72,5,5,Medium,5,0,47.46,Moderate Productivity
+S0467,DEV006,2026-10-31,13,Documentation,54,30,7,7,Low,5,4,51.82000000000001,Moderate Productivity
+S0468,DEV001,2026-10-22,12,Debugging,76,50,6,2,High,4,2,53.66000000000001,Moderate Productivity
+S0469,DEV008,2026-10-26,16,Code Review,76,27,10,5,Medium,4,4,43.96000000000001,Moderate Productivity
+S0470,DEV005,2026-11-08,11,Documentation,43,21,10,1,Low,3,5,46.400000000000006,Moderate Productivity
+S0471,DEV009,2026-11-01,9,Documentation,110,19,1,0,High,4,4,54.56000000000001,Moderate Productivity
+S0472,DEV009,2026-11-09,17,Testing,57,12,8,4,High,2,2,24.560000000000002,Low Productivity
+S0473,DEV003,2026-10-26,17,Documentation,80,38,9,4,Low,4,2,40.760000000000005,Moderate Productivity
+S0474,DEV010,2026-11-02,11,Documentation,94,11,10,3,Low,4,1,12.640000000000004,Low Productivity
+S0475,DEV008,2026-10-23,9,Debugging,52,46,9,2,Medium,2,0,30.48,Low Productivity
+S0476,DEV004,2026-10-28,14,Testing,63,33,3,0,Medium,4,0,34.239999999999995,Moderate Productivity
+S0477,DEV009,2026-11-01,13,Code Review,35,30,5,1,High,5,4,55.86000000000001,Moderate Productivity
+S0478,DEV006,2026-10-30,10,Documentation,52,34,10,6,Medium,4,1,29.12,Low Productivity
+S0479,DEV008,2026-11-06,16,Documentation,96,61,5,5,Low,5,1,52.100000000000016,Moderate Productivity
+S0480,DEV009,2026-11-01,13,Debugging,86,31,3,1,Low,2,1,40.68000000000001,Moderate Productivity
+S0481,DEV007,2026-11-06,14,Coding,76,25,10,3,Medium,4,3,36.72,Moderate Productivity
+S0482,DEV001,2026-10-19,9,Debugging,56,47,2,6,High,5,1,51.56,Moderate Productivity
+S0483,DEV001,2026-10-17,13,Debugging,47,42,0,2,High,4,4,71.52000000000001,High Productivity
+S0484,DEV002,2026-10-18,16,Documentation,102,91,0,4,Medium,4,1,67.72,High Productivity
+S0485,DEV010,2026-11-07,11,Documentation,58,36,9,2,High,5,2,39.52,Moderate Productivity
+S0486,DEV004,2026-10-24,15,Debugging,51,31,7,1,Low,1,1,33.06000000000001,Low Productivity
+S0487,DEV003,2026-10-31,10,Debugging,96,74,10,6,Medium,5,4,65.36000000000001,Moderate Productivity
+S0488,DEV002,2026-10-27,11,Documentation,34,27,8,1,High,1,5,54.0,Moderate Productivity
+S0489,DEV006,2026-11-08,9,Documentation,113,65,8,6,Medium,2,3,61.199999999999996,Moderate Productivity
+S0490,DEV007,2026-10-16,13,Testing,78,54,9,1,Low,1,2,49.720000000000006,Moderate Productivity
+S0491,DEV004,2026-10-12,9,Documentation,106,79,6,4,High,1,4,74.26,High Productivity
+S0492,DEV006,2026-10-25,14,Coding,30,22,10,3,Low,4,5,47.28000000000001,Moderate Productivity
+S0493,DEV007,2026-10-30,14,Documentation,104,42,4,8,Medium,4,1,45.32000000000001,Moderate Productivity
+S0494,DEV003,2026-10-23,17,Documentation,82,80,8,7,Medium,3,2,58.36,Moderate Productivity
+S0495,DEV002,2026-11-04,12,Testing,103,54,6,2,High,2,0,40.5,Moderate Productivity
+S0496,DEV009,2026-10-31,9,Debugging,57,42,6,5,Medium,1,0,33.940000000000005,Moderate Productivity
+S0497,DEV002,2026-10-14,13,Debugging,48,40,9,6,Medium,1,4,53.88,Moderate Productivity
+S0498,DEV010,2026-11-01,17,Code Review,34,33,6,6,High,5,0,28.659999999999997,Low Productivity
+S0499,DEV001,2026-10-18,17,Code Review,52,50,7,7,Low,1,4,63.74000000000001,Moderate Productivity
+S0500,DEV001,2026-10-23,12,Coding,95,76,3,2,Low,1,2,66.92,High Productivity

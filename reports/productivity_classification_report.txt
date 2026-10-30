@@ -1,0 +1,38 @@
+============================================================
+COGNISTREAM PRODUCTIVITY CLASSIFICATION REPORT
+============================================================
+
+Total sessions analyzed: 500
+
+PRODUCTIVITY SCORING METHOD
+------------------------------------------------------------
+Focus duration weight: 40%
+Completed tasks weight: 40%
+Interruptions weight: 20% (lower is better)
+
+Classification uses relative percentile scores.
+Categories are based on the score distribution.
+
+PRODUCTIVITY CATEGORY SUMMARY
+------------------------------------------------------------
+productivity_category  total_sessions  average_focus_duration  average_tasks_completed  average_interruptions  average_cognitive_load
+     Low Productivity              89                   21.69                     0.70                   6.21                    3.22
+Moderate Productivity             317                   42.50                     2.35                   5.26                    3.13
+    High Productivity              94                   68.22                     4.09                   3.74                    3.03
+
+INTERPRETATION
+------------------------------------------------------------
+High Productivity: Sessions with relatively higher scores.
+Moderate Productivity: Sessions with middle-range scores.
+Low Productivity: Sessions with relatively lower scores.
+
+LIMITATIONS
+------------------------------------------------------------
+These categories are analytical benchmarks, not official
+performance ratings.
+Task complexity and task type may affect comparisons.
+Cognitive load is analyzed separately and is not treated
+as automatically negative or positive.
+
+The dataset is synthetic, so findings demonstrate an
+analytical workflow rather than verified real-world behavior.
