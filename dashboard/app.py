@@ -404,6 +404,157 @@ st.download_button(
     file_name="cognistream_filtered_data.csv",
     mime="text/csv"
 )
+# ==========================================================
+# DAY 19: PRODUCTIVITY CLASSIFICATION ANALYSIS
+# ==========================================================
+
+st.divider()
+
+st.header("Developer Productivity Classification")
+
+st.write(
+    "Analyze developer sessions based on their "
+    "productivity categories."
+)
+
+# Load Day 18 classified dataset
+CLASSIFIED_FILE = (
+    BASE_DIR
+    / "data"
+    / "processed"
+    / "developer_productivity_classified.csv"
+)
+
+if CLASSIFIED_FILE.exists():
+
+    classified_df = pd.read_csv(CLASSIFIED_FILE)
+
+    # Apply existing task-type filter
+    productivity_df = classified_df[
+        classified_df["task_type"].isin(selected_tasks)
+    ].copy()
+
+    if productivity_df.empty:
+
+        st.warning("No records available for the selected filters.")
+
+    else:
+
+        # Count productivity categories
+        category_counts = (
+            productivity_df["productivity_category"]
+            .value_counts()
+            .reindex(
+                [
+                    "High Productivity",
+                    "Moderate Productivity",
+                    "Low Productivity"
+                ],
+                fill_value=0
+            )
+            .reset_index()
+        )
+
+        category_counts.columns = [
+            "Productivity Category",
+            "Total Sessions"
+        ]
+
+        # Display category KPIs
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric(
+            "High Productivity",
+            int(category_counts.iloc[0]["Total Sessions"])
+        )
+
+        col2.metric(
+            "Moderate Productivity",
+            int(category_counts.iloc[1]["Total Sessions"])
+        )
+
+        col3.metric(
+            "Low Productivity",
+            int(category_counts.iloc[2]["Total Sessions"])
+        )
+
+        # Display category chart
+        st.subheader("Productivity Category Distribution")
+
+        category_chart = px.bar(
+            category_counts,
+            x="Productivity Category",
+            y="Total Sessions",
+            color="Productivity Category",
+            title="Developer Sessions by Productivity Category"
+        )
+
+        st.plotly_chart(
+            category_chart,
+            use_container_width=True
+        )
+
+        # Display average productivity score
+        st.subheader("Average Productivity Score")
+
+        score_summary = (
+            productivity_df.groupby(
+                "productivity_category",
+                observed=False
+            )["productivity_score"]
+            .mean()
+            .reset_index()
+        )
+
+        score_chart = px.bar(
+            score_summary,
+            x="productivity_category",
+            y="productivity_score",
+            color="productivity_category",
+            title="Average Productivity Score by Category"
+        )
+
+        st.plotly_chart(
+            score_chart,
+            use_container_width=True
+        )
+
+        # Display category comparison
+        st.subheader("Productivity Performance Summary")
+
+        performance_summary = (
+            productivity_df.groupby(
+                "productivity_category",
+                observed=False
+            )
+            .agg(
+                average_focus_duration=(
+                    "focus_duration_min", "mean"
+                ),
+                average_tasks_completed=(
+                    "tasks_completed", "mean"
+                ),
+                average_interruptions=(
+                    "interruptions", "mean"
+                ),
+                average_cognitive_load=(
+                    "cognitive_load_rating", "mean"
+                )
+            )
+            .reset_index()
+        )
+
+        st.dataframe(
+            performance_summary.round(2),
+            use_container_width=True,
+            hide_index=True
+        )
+
+else:
+
+    st.warning(
+        "Day 18 productivity classification dataset not found."
+    )
 
 
 # Dashboard footer
