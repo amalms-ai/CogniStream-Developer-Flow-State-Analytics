@@ -1,0 +1,32 @@
+=================================================================
+COGNISTREAM: DEVELOPER PRODUCTIVITY DISTRIBUTION
+=================================================================
+
+Total sessions analyzed: 500
+Number of developers: 10
+
+PRODUCTIVITY DISTRIBUTION BY DEVELOPER
+-----------------------------------------------------------------
+developer_id  High Productivity  Moderate Productivity  Low Productivity  Total Sessions  High Productivity (%)  Moderate Productivity (%)  Low Productivity (%)
+      DEV006                 16                     36                 7              59                  27.12                      61.02                 11.86
+      DEV003                 14                     35                 4              53                  26.42                      66.04                  7.55
+      DEV009                 14                     36                 8              58                  24.14                      62.07                 13.79
+      DEV002                 11                     33                 8              52                  21.15                      63.46                 15.38
+      DEV005                 11                     30                11              52                  21.15                      57.69                 21.15
+      DEV008                  9                     18                 8              35                  25.71                      51.43                 22.86
+      DEV001                  7                     30                 6              43                  16.28                      69.77                 13.95
+      DEV010                  6                     36                14              56                  10.71                      64.29                 25.00
+      DEV004                  4                     27                10              41                   9.76                      65.85                 24.39
+      DEV007                  2                     36                13              51                   3.92                      70.59                 25.49
+
+OVERALL CATEGORY DISTRIBUTION
+-----------------------------------------------------------------
+productivity_category
+High Productivity         94
+Moderate Productivity    317
+Low Productivity          89
+
+NOTE
+-----------------------------------------------------------------
+This analysis compares the distribution of classified work sessions across developers. It does not establish individual employee performance or skill levels.
+The dataset is synthetic, so results demonstrate an analytical workflow rather than real-world findings.
