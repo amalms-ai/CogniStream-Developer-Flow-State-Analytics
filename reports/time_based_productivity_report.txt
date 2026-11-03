@@ -1,0 +1,66 @@
+============================================================
+COGNISTREAM TIME-BASED PRODUCTIVITY ANALYSIS
+============================================================
+
+Total sessions analyzed: 500
+Working dates analyzed: 30
+Working hours represented: 9
+
+HOURLY PRODUCTIVITY SUMMARY
+------------------------------------------------------------
+ start_hour  total_sessions  average_productivity_score
+          9              56                       52.26
+         10              59                       51.06
+         11              55                       51.51
+         12              56                       51.02
+         13              55                       52.07
+         14              47                       49.18
+         15              51                       44.54
+         16              71                       49.06
+         17              50                       49.41
+
+DAILY PRODUCTIVITY SUMMARY
+------------------------------------------------------------
+      date  total_sessions  average_productivity_score
+2026-10-12              17                       49.50
+2026-10-13              13                       47.81
+2026-10-14              13                       54.63
+2026-10-15              21                       51.25
+2026-10-16              17                       48.55
+2026-10-17              13                       53.34
+2026-10-18              17                       55.57
+2026-10-19              19                       54.39
+2026-10-20              11                       47.79
+2026-10-21              10                       49.55
+2026-10-22              25                       51.59
+2026-10-23              19                       46.89
+2026-10-24              26                       53.82
+2026-10-25              18                       52.02
+2026-10-26              20                       52.60
+2026-10-27               6                       46.36
+2026-10-28              16                       52.10
+2026-10-29              13                       45.08
+2026-10-30              13                       51.79
+2026-10-31              20                       48.79
+2026-11-01              25                       46.93
+2026-11-02              16                       44.12
+2026-11-03              20                       48.19
+2026-11-04              21                       45.43
+2026-11-05              19                       55.79
+2026-11-06              13                       49.13
+2026-11-07              17                       45.39
+2026-11-08              14                       50.95
+2026-11-09              13                       45.53
+2026-11-10              15                       51.60
+
+KEY OBSERVATIONS
+------------------------------------------------------------
+Highest average productivity score: 52.26 at hour 9:00
+Lowest average productivity score: 44.54 at hour 15:00
+
+NOTE
+------------------------------------------------------------
+These findings describe patterns in the available dataset.
+They do not prove that working at a particular hour causes
+higher or lower productivity.
+The dataset is synthetic, so results are illustrative.
