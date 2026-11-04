@@ -1,0 +1,51 @@
+developer_id,task_type,session_count
+DEV001,Code Review,7
+DEV001,Coding,7
+DEV001,Debugging,11
+DEV001,Documentation,8
+DEV001,Testing,10
+DEV002,Code Review,10
+DEV002,Coding,7
+DEV002,Debugging,9
+DEV002,Documentation,17
+DEV002,Testing,9
+DEV003,Code Review,12
+DEV003,Coding,13
+DEV003,Debugging,9
+DEV003,Documentation,8
+DEV003,Testing,11
+DEV004,Code Review,7
+DEV004,Coding,10
+DEV004,Debugging,11
+DEV004,Documentation,7
+DEV004,Testing,6
+DEV005,Code Review,13
+DEV005,Coding,14
+DEV005,Debugging,12
+DEV005,Documentation,6
+DEV005,Testing,7
+DEV006,Code Review,17
+DEV006,Coding,12
+DEV006,Debugging,4
+DEV006,Documentation,19
+DEV006,Testing,7
+DEV007,Code Review,6
+DEV007,Coding,16
+DEV007,Debugging,6
+DEV007,Documentation,11
+DEV007,Testing,12
+DEV008,Code Review,6
+DEV008,Coding,7
+DEV008,Debugging,7
+DEV008,Documentation,7
+DEV008,Testing,8
+DEV009,Code Review,9
+DEV009,Coding,8
+DEV009,Debugging,11
+DEV009,Documentation,19
+DEV009,Testing,11
+DEV010,Code Review,10
+DEV010,Coding,14
+DEV010,Debugging,9
+DEV010,Documentation,14
+DEV010,Testing,9

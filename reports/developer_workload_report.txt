@@ -1,0 +1,84 @@
+COGNISTREAM - DEVELOPER WORKLOAD ANALYSIS
+==================================================
+Total valid sessions: 500
+Total developers: 10
+
+DEVELOPER WORKLOAD SUMMARY
+--------------------------------------------------
+
+Developer: DEV006
+Total Sessions: 59
+Total Work Duration: 4750.00 minutes
+Average Session Duration: 80.51 minutes
+Workload Percentage: 11.80%
+Workload Category: Moderate
+
+Developer: DEV009
+Total Sessions: 58
+Total Work Duration: 4367.00 minutes
+Average Session Duration: 75.29 minutes
+Workload Percentage: 11.60%
+Workload Category: Moderate
+
+Developer: DEV010
+Total Sessions: 56
+Total Work Duration: 4102.00 minutes
+Average Session Duration: 73.25 minutes
+Workload Percentage: 11.20%
+Workload Category: Moderate
+
+Developer: DEV003
+Total Sessions: 53
+Total Work Duration: 4051.00 minutes
+Average Session Duration: 76.43 minutes
+Workload Percentage: 10.60%
+Workload Category: Moderate
+
+Developer: DEV005
+Total Sessions: 52
+Total Work Duration: 4218.00 minutes
+Average Session Duration: 81.12 minutes
+Workload Percentage: 10.40%
+Workload Category: Moderate
+
+Developer: DEV002
+Total Sessions: 52
+Total Work Duration: 4037.00 minutes
+Average Session Duration: 77.63 minutes
+Workload Percentage: 10.40%
+Workload Category: Moderate
+
+Developer: DEV007
+Total Sessions: 51
+Total Work Duration: 3708.00 minutes
+Average Session Duration: 72.71 minutes
+Workload Percentage: 10.20%
+Workload Category: Moderate
+
+Developer: DEV001
+Total Sessions: 43
+Total Work Duration: 3096.00 minutes
+Average Session Duration: 72.00 minutes
+Workload Percentage: 8.60%
+Workload Category: Moderate
+
+Developer: DEV004
+Total Sessions: 41
+Total Work Duration: 3095.00 minutes
+Average Session Duration: 75.49 minutes
+Workload Percentage: 8.20%
+Workload Category: Low
+
+Developer: DEV008
+Total Sessions: 35
+Total Work Duration: 2741.00 minutes
+Average Session Duration: 78.31 minutes
+Workload Percentage: 7.00%
+Workload Category: Low
+
+HIGHEST SESSION VOLUME
+--------------------------------------------------
+Developer: DEV006
+Total Sessions: 59
+
+Note: Workload categories are based on relative session counts. They indicate recorded workload volume, not employee performance or individual effort.
