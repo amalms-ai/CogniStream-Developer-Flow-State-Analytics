@@ -1,0 +1,113 @@
+COGNISTREAM - SESSION DURATION VARIABILITY ANALYSIS
+============================================================
+Total valid sessions: 500
+Overall average duration: 76.33 minutes
+Overall median duration: 77.00 minutes
+
+DEVELOPER SESSION VARIABILITY
+------------------------------------------------------------
+
+Developer: DEV010
+Sessions: 56
+Average Duration: 73.25 minutes
+Median Duration: 70.50 minutes
+Duration Variation (CV): 40.20%
+Outlier Sessions: 0
+
+Developer: DEV002
+Sessions: 52
+Average Duration: 77.63 minutes
+Median Duration: 81.50 minutes
+Duration Variation (CV): 39.53%
+Outlier Sessions: 0
+
+Developer: DEV007
+Sessions: 51
+Average Duration: 72.71 minutes
+Median Duration: 76.00 minutes
+Duration Variation (CV): 38.30%
+Outlier Sessions: 0
+
+Developer: DEV001
+Sessions: 43
+Average Duration: 72.00 minutes
+Median Duration: 71.00 minutes
+Duration Variation (CV): 34.79%
+Outlier Sessions: 0
+
+Developer: DEV009
+Sessions: 58
+Average Duration: 75.29 minutes
+Median Duration: 77.00 minutes
+Duration Variation (CV): 34.46%
+Outlier Sessions: 0
+
+Developer: DEV003
+Sessions: 53
+Average Duration: 76.43 minutes
+Median Duration: 78.00 minutes
+Duration Variation (CV): 34.08%
+Outlier Sessions: 0
+
+Developer: DEV006
+Sessions: 59
+Average Duration: 80.51 minutes
+Median Duration: 85.00 minutes
+Duration Variation (CV): 33.06%
+Outlier Sessions: 0
+
+Developer: DEV008
+Sessions: 35
+Average Duration: 78.31 minutes
+Median Duration: 76.00 minutes
+Duration Variation (CV): 31.52%
+Outlier Sessions: 0
+
+Developer: DEV005
+Sessions: 52
+Average Duration: 81.12 minutes
+Median Duration: 85.00 minutes
+Duration Variation (CV): 31.50%
+Outlier Sessions: 0
+
+Developer: DEV004
+Sessions: 41
+Average Duration: 75.49 minutes
+Median Duration: 73.00 minutes
+Duration Variation (CV): 30.92%
+Outlier Sessions: 0
+
+TASK TYPE SESSION VARIABILITY
+------------------------------------------------------------
+
+Task Type: Testing
+Average Duration: 73.00 minutes
+Median Duration: 68.00 minutes
+Duration Variation (CV): 36.80%
+Outlier Sessions: 0
+
+Task Type: Coding
+Average Duration: 76.71 minutes
+Median Duration: 78.50 minutes
+Duration Variation (CV): 36.64%
+Outlier Sessions: 0
+
+Task Type: Code Review
+Average Duration: 75.97 minutes
+Median Duration: 78.00 minutes
+Duration Variation (CV): 35.95%
+Outlier Sessions: 0
+
+Task Type: Documentation
+Average Duration: 79.26 minutes
+Median Duration: 80.00 minutes
+Duration Variation (CV): 33.20%
+Outlier Sessions: 0
+
+Task Type: Debugging
+Average Duration: 75.81 minutes
+Median Duration: 77.00 minutes
+Duration Variation (CV): 32.66%
+Outlier Sessions: 0
+
+Note: High session duration variation indicates less consistency in recorded session lengths. Outliers are statistical observations and do not automatically indicate errors.
