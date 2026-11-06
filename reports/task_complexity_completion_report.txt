@@ -1,0 +1,32 @@
+COGNISTREAM - TASK COMPLEXITY AND COMPLETION ANALYSIS
+============================================================
+
+Total valid sessions analyzed: 500
+
+Task Complexity: High
+Total Sessions: 174
+Total Tasks Completed: 404
+Average Tasks Completed: 2.32
+Average Session Duration: 74.87 minutes
+Average Focus Duration: 40.90 minutes
+Average Tasks Completed Per Hour: 2.11
+
+Task Complexity: Low
+Total Sessions: 174
+Total Tasks Completed: 404
+Average Tasks Completed: 2.32
+Average Session Duration: 77.10 minutes
+Average Focus Duration: 44.84 minutes
+Average Tasks Completed Per Hour: 2.11
+
+Task Complexity: Medium
+Total Sessions: 152
+Total Tasks Completed: 382
+Average Tasks Completed: 2.51
+Average Session Duration: 77.11 minutes
+Average Focus Duration: 45.38 minutes
+Average Tasks Completed Per Hour: 2.21
+
+============================================================
+
+Note: These results describe patterns in synthetic developer activity data.
