@@ -1,0 +1,57 @@
+COGNISTREAM - TASK SWITCHING AND COMPLETION ANALYSIS
+============================================================
+
+Total sessions analyzed: 500
+Average task switches: 4.11
+Average tasks completed: 2.38
+Average completion rate: 2.14
+
+COMPARISON BY TASK SWITCH COUNT
+------------------------------------------------------------
+
+Task switches: 0.0
+Sessions: 45.0
+Average tasks completed: 2.69
+Average completion rate: 2.35
+
+Task switches: 1.0
+Sessions: 53.0
+Average tasks completed: 2.36
+Average completion rate: 2.33
+
+Task switches: 2.0
+Sessions: 58.0
+Average tasks completed: 2.48
+Average completion rate: 2.20
+
+Task switches: 3.0
+Sessions: 58.0
+Average tasks completed: 2.69
+Average completion rate: 2.50
+
+Task switches: 4.0
+Sessions: 56.0
+Average tasks completed: 2.07
+Average completion rate: 1.84
+
+Task switches: 5.0
+Sessions: 58.0
+Average tasks completed: 2.38
+Average completion rate: 2.09
+
+Task switches: 6.0
+Sessions: 63.0
+Average tasks completed: 2.35
+Average completion rate: 2.15
+
+Task switches: 7.0
+Sessions: 51.0
+Average tasks completed: 2.10
+Average completion rate: 1.74
+
+Task switches: 8.0
+Sessions: 58.0
+Average tasks completed: 2.33
+Average completion rate: 2.06
+
+Note: Results describe synthetic developer activity data.
