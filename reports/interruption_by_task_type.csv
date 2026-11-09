@@ -1,0 +1,6 @@
+task_type,total_sessions,avg_interruptions,avg_tasks_completed,avg_completion_rate
+Code Review,97,5.04,2.36,2.18
+Coding,108,5.45,2.37,2.15
+Debugging,89,4.97,2.46,2.24
+Documentation,116,5.22,2.22,1.87
+Testing,90,4.96,2.53,2.34
