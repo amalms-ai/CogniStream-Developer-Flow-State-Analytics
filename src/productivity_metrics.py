@@ -107,11 +107,13 @@ def main():
         .round(2)
     )
 
-    # Save developer-level metrics
+   # Save developer-level metrics
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
     developer_metrics.to_csv(
-        OUTPUT_FILE,
-        index=False
-    )
+    OUTPUT_FILE,
+    index=False
+)
 
     # Prepare report
     report = []
